@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   max-width: 80rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 600px;
+    gap: 80px;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.container h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+.addressSection{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.address{
+    width: 30%;
+}
+.address h1{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+.contact{
+    margin-top: 90px;
+    margin-left: 60px;
+    width: 30%;
+}
+
+.mapLocation{
+    width: 40%;
+}
+
+.container h4{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.usa{
+    margin-top: 20px;
+}
+
+@media(max-width:800px){
+    .container{
+        gap: 20px;
+        height: auto;
+        margin-top: 100px;
+    }
+   
+    .addressSection{
+        flex-direction: column;
+        
+    }
+    .address{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .address h1{
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    .contact{
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .mapLocation{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,89 @@
+import { GridBackgroundDemo } from '@/components/BackgroundServices/BackgroundServices'
+import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService'
+import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo'
+import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
+import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
+import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
+import React from 'react'
+
+
+
+const page = () => {
+
+  const head = {
+    fstLine: 'Crafting Visual Masterpieces',
+    sndLine: 'for Your Brand'
+  }
+
+  const serviceSystem = {
+    namee: "Photography",
+    paragraphOne: "Elevate your brand's visual identity with Growdio's top-tier photography services. Our team specializes in creating striking images that highlight your unique style and message. From corporate headshots and product photography to lifestyle shoots and event coverage, we provide tailored solutions to meet your specific needs. ",
+    paragraphTwo: "At Growdio, we offer professional photography services designed to capture the essence of every moment. ",
+    imageOne: "/images/par9.jpg",
+    imageTwo: "/images/navPtwo.jpg"
+  }
+  const listItemForService = [
+    "Professional Photography Services",
+    "5+ Years of Experience",
+    "Captured 40+ Stunning Moments",
+    "High-Quality & Creative Shots",
+    "Expert in Various Photography Styles",
+    "Attention to Detail & Composition",
+    "Customized to Your Brand’s Vision",
+    "Fast Delivery & Editing",
+    "Seamless Integration with Marketing Materials",
+    "24/7 Support & Revisions"
+  ];
+  
+
+  const Comprehensive = {
+    namee: "Photography",
+    projects: [
+      {
+        title: "Product Photography",
+        description: "Capture high-quality images of products to showcase their features and appeal in marketing materials and online stores.",
+        link: "",
+      },
+      {
+        title: "Event Photography",
+        description: "Document events with professional photos that capture key moments and emotions, providing lasting memories and promotional content.",
+        link: "",
+      },
+      {
+        title: "Corporate Headshots",
+        description: "Provide polished and professional headshots for team members, enhancing corporate image and personal branding.",
+        link: "",
+      },
+      {
+        title: "Lifestyle Photography",
+        description: "Create engaging lifestyle images that convey brand stories and resonate with target audiences in various contexts.",
+        link: "",
+      },
+      {
+        title: "Architectural Photography",
+        description: "Photograph architectural designs and structures, highlighting their aesthetic and functional aspects for portfolios and promotional use.",
+        link: "",
+      },
+      {
+        title: "Custom Photo Shoots",
+        description: "Plan and execute tailored photo shoots based on specific client needs, delivering personalized and impactful visual content.",
+        link: "",
+      }
+    ]
+  }
+
+
+
+  return (
+    <main>
+      <GridBackgroundDemo head={head} />
+      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
+      <MacbookScrollDemo />
+      <ComprehensiveService comprehensive = {Comprehensive} />
+      <FloatingDockDemo />
+      <WobbleCardDemo />
+    </main>
+  )
+}
+
+export default page
