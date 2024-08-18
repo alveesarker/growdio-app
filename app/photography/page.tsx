@@ -42,32 +42,32 @@ const page = () => {
       {
         title: "Product Photography",
         description: "Capture high-quality images of products to showcase their features and appeal in marketing materials and online stores.",
-        link: "",
+        link: "6",
       },
       {
         title: "Event Photography",
         description: "Document events with professional photos that capture key moments and emotions, providing lasting memories and promotional content.",
-        link: "",
+        link: "5",
       },
       {
         title: "Corporate Headshots",
         description: "Provide polished and professional headshots for team members, enhancing corporate image and personal branding.",
-        link: "",
+        link: "4",
       },
       {
         title: "Lifestyle Photography",
         description: "Create engaging lifestyle images that convey brand stories and resonate with target audiences in various contexts.",
-        link: "",
+        link: "3",
       },
       {
         title: "Architectural Photography",
         description: "Photograph architectural designs and structures, highlighting their aesthetic and functional aspects for portfolios and promotional use.",
-        link: "",
+        link: "23",
       },
       {
         title: "Custom Photo Shoots",
         description: "Plan and execute tailored photo shoots based on specific client needs, delivering personalized and impactful visual content.",
-        link: "",
+        link: "1",
       }
     ]
   }

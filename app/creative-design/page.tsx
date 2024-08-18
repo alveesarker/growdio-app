@@ -30,32 +30,32 @@ const page = () => {
       {
         title: "Brand Identity Design",
         description: "Create a strong brand presence with logos, color schemes, and typography that resonate with your target audience.",
-        link: "",
+        link: "6",
       },
       {
         title: "Graphic Design",
         description: "Deliver visually stunning graphics for marketing materials, social media, and websites to captivate your audience.",
-        link: "",
+        link: "5",
       },
       {
         title: "UI/UX Design",
         description: "Design intuitive and engaging user interfaces that enhance user experience and drive conversions.",
-        link: "",
+        link: "4",
       },
       {
         title: "Print Design",
         description: "Craft high-quality print materials including brochures, business cards, and posters to make a lasting impression.",
-        link: "",
+        link: "3",
       },
       {
         title: "Packaging Design",
         description: "Develop attractive and functional packaging that stands out on the shelves and reinforces your brand identity.",
-        link: "",
+        link: "2",
       },
       {
         title: "Illustrations",
         description: "Create custom illustrations that add a unique touch to your branding, website, or marketing materials.",
-        link: "",
+        link: "1",
       }
     ]
   }

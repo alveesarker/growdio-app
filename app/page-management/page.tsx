@@ -40,32 +40,32 @@ const page = () => {
       {
         title: "Content Updates",
         description: "Regularly update and refresh website content to keep information relevant and engaging for your audience.",
-        link: "",
+        link: "6",
       },
       {
         title: "SEO Optimization",
         description: "Implement on-page SEO strategies to enhance page visibility and search engine rankings.",
-        link: "",
+        link: "5",
       },
       {
         title: "Performance Monitoring",
         description: "Monitor page performance metrics and ensure fast load times to provide a seamless user experience.",
-        link: "",
+        link: "4",
       },
       {
         title: "User Experience Enhancements",
         description: "Identify and implement improvements to enhance user experience, navigation, and overall satisfaction.",
-        link: "",
+        link: "3",
       },
       {
         title: "A/B Testing",
         description: "Conduct A/B tests on page elements to determine the most effective design and content strategies.",
-        link: "",
+        link: "2",
       },
       {
         title: "Bug Fixes & Maintenance",
         description: "Address and resolve any issues or bugs that arise, ensuring smooth and uninterrupted page functionality.",
-        link: "",
+        link: "1",
       }
     ]
   }

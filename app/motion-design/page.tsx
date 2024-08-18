@@ -42,32 +42,32 @@ const page = () => {
       {
         title: "Animated Explainers",
         description: "Create engaging animated videos that explain complex concepts clearly and attractively.",
-        link: "",
+        link: "6",
       },
       {
         title: "Logo Animations",
         description: "Design dynamic logo animations that enhance brand recognition and add a professional touch to your identity.",
-        link: "",
+        link: "5",
       },
       {
         title: "Social Media Animations",
         description: "Develop eye-catching animations for social media platforms to boost engagement and visibility.",
-        link: "",
+        link: "4",
       },
       {
         title: "Website Animations",
         description: "Integrate smooth and interactive animations into websites to improve user experience and drive user interaction.",
-        link: "",
+        link: "3",
       },
       {
         title: "Video Transitions",
         description: "Craft creative transitions between video scenes to maintain viewer interest and ensure seamless storytelling.",
-        link: "",
+        link: "2",
       },
       {
         title: "Infographics Animations",
         description: "Animate infographics to visually represent data and insights, making information more accessible and engaging.",
-        link: "",
+        link: "1",
       }
     ]
   }

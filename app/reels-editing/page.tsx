@@ -38,32 +38,32 @@ const page = () => {
       {
         title: "Creative Concept Development",
         description: "Develop engaging and original concepts for reels that capture attention and align with your brand's message.",
-        link: "",
+        link: "6",
       },
       {
         title: "Video Cutting & Sequencing",
         description: "Edit raw footage into cohesive and compelling sequences, ensuring a smooth flow and engaging narrative.",
-        link: "",
+        link: "4",
       },
       {
         title: "Visual Effects Integration",
         description: "Incorporate dynamic visual effects to enhance the overall appeal and impact of your reels.",
-        link: "",
+        link: "5",
       },
       {
         title: "Audio Editing & Syncing",
         description: "Edit and sync audio with video content to create a polished and immersive viewing experience.",
-        link: "",
+        link: "3",
       },
       {
         title: "Color Correction & Grading",
         description: "Apply color correction and grading to ensure consistent and visually appealing aesthetics across your reels.",
-        link: "",
+        link: "2",
       },
       {
         title: "Final Review & Export",
         description: "Conduct a final review of the edited reels and export them in the desired format, ready for distribution and publication.",
-        link: "",
+        link: "1",
       }
     ]
   }

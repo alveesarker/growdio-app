@@ -42,32 +42,32 @@ const page = () => {
       {
         title: "Strategic Planning",
         description: "Develop a comprehensive strategy to align campaign goals with target audience insights, ensuring maximum impact.",
-        link: "",
+        link: "6",
       },
       {
         title: "Creative Concept Development",
         description: "Design innovative concepts and themes that resonate with your audience and effectively communicate your message.",
-        link: "",
+        link: "5",
       },
       {
         title: "Content Creation",
         description: "Produce engaging content, including copy, visuals, and multimedia, tailored to the campaign's objectives and platforms.",
-        link: "",
+        link: "4",
       },
       {
         title: "Media Buying & Placement",
         description: "Manage media buying and placement across various channels to ensure optimal reach and ROI for your campaign.",
-        link: "",
+        link: "3",
       },
       {
         title: "Performance Tracking",
         description: "Monitor and analyze campaign performance using key metrics to optimize strategies and achieve better results.",
-        link: "",
+        link: "2",
       },
       {
         title: "Reporting & Analysis",
         description: "Provide detailed reports and insights on campaign outcomes, helping you understand effectiveness and inform future strategies.",
-        link: "",
+        link: "1",
       }
     ]
   }

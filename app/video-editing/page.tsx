@@ -42,32 +42,32 @@ const page = () => {
       {
         title: "Raw Footage Assembly",
         description: "Compile and organize raw footage into a structured timeline, setting the foundation for a compelling final product.",
-        link: "",
+        link: "6",
       },
       {
         title: "Transitions & Effects",
         description: "Apply transitions and visual effects to enhance the flow and visual appeal of the video, ensuring a smooth and engaging experience.",
-        link: "",
+        link: "5",
       },
       {
         title: "Audio Editing & Enhancement",
         description: "Edit and enhance audio tracks, including background music, sound effects, and voiceovers, to complement the visual content.",
-        link: "",
+        link: "4",
       },
       {
         title: "Color Grading & Correction",
         description: "Perform color grading and correction to achieve a consistent and professional look throughout the video.",
-        link: "",
+        link: "3",
       },
       {
         title: "Title & Graphics Integration",
         description: "Incorporate titles, lower thirds, and graphics to provide context and enhance the video’s message and branding.",
-        link: "",
+        link: "2",
       },
       {
         title: "Final Review & Export",
         description: "Conduct a comprehensive review of the edited video, make final adjustments, and export the video in the required format and quality.",
-        link: "",
+        link: "1",
       }
     ]
   }

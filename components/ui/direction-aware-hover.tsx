@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -19,6 +19,19 @@ export const DirectionAwareHover = ({
   className?: string;
 }) => {
   const ref = useRef<HTMLDivElement>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Detect if the device is mobile based on window width
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const [direction, setDirection] = useState<
     "top" | "bottom" | "left" | "right" | string
@@ -27,10 +40,9 @@ export const DirectionAwareHover = ({
   const handleMouseEnter = (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
-    if (!ref.current) return;
+    if (!ref.current || isMobile) return;
 
     const direction = getDirection(event, ref.current);
-    console.log("direction", direction);
     switch (direction) {
       case 0:
         setDirection("top");
@@ -74,12 +86,12 @@ export const DirectionAwareHover = ({
         <motion.div
           className="relative h-full w-full"
           initial="initial"
-          whileHover={direction}
+          whileHover={isMobile ? "noDirection" : direction}
           exit="exit"
         >
           <motion.div className="group-hover/card:block hidden absolute inset-0 w-full h-full bg-black/40 z-10 transition duration-500" />
           <motion.div
-            variants={variants}
+            variants={isMobile ? mobileVariants : variants}
             className="h-full w-full relative bg-gray-50 dark:bg-black"
             transition={{
               duration: 0.2,
@@ -98,7 +110,7 @@ export const DirectionAwareHover = ({
             />
           </motion.div>
           <motion.div
-            variants={textVariants}
+            variants={isMobile ? mobileTextVariants : textVariants}
             transition={{
               duration: 0.5,
               ease: "easeOut",
@@ -165,5 +177,29 @@ const textVariants = {
   right: {
     x: 20,
     opacity: 1,
+  },
+};
+
+const mobileVariants = {
+  initial: {
+    scale: 1,
+  },
+  noDirection: {
+    scale: 1.05,
+  },
+  exit: {
+    scale: 1,
+  },
+};
+
+const mobileTextVariants = {
+  initial: {
+    opacity: 0,
+  },
+  noDirection: {
+    opacity: 1,
+  },
+  exit: {
+    opacity: 0,
   },
 };

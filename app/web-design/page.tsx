@@ -30,32 +30,32 @@ const page = () => {
       {
         title: "Website Layout & Wireframes",
         description: "Create detailed layouts and wireframes to establish the structure and user flow of the website, ensuring an intuitive and effective design.",
-        link: "",
+        link: "6",
       },
       {
         title: "Responsive Design",
         description: "Design and implement responsive layouts that adapt seamlessly across various devices and screen sizes, enhancing user experience.",
-        link: "",
+        link: "5",
       },
       {
         title: "UI/UX Design",
         description: "Develop user interfaces and experiences that are visually appealing and user-friendly, focusing on functionality and engagement.",
-        link: "",
+        link: "4",
       },
       {
         title: "Graphic Elements Creation",
         description: "Design custom graphic elements such as icons, banners, and buttons to complement the website’s aesthetic and functionality.",
-        link: "",
+        link: "3",
       },
       {
         title: "Prototyping & User Testing",
         description: "Build interactive prototypes and conduct user testing to validate design decisions and make necessary improvements before final implementation.",
-        link: "",
+        link: "2",
       },
       {
         title: "Website Optimization",
         description: "Optimize website design for performance, including fast load times, SEO-friendly structure, and efficient coding practices.",
-        link: "",
+        link: "1",
       }
     ]
   }
