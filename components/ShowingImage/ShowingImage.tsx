@@ -4,6 +4,7 @@ const ShowingImage = () => {
   return (
     <div>
       Heello hello
+      how are you now
     </div>
   )
 }
