@@ -21,12 +21,12 @@ export function WobbleCardDemo() {
         </div>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-black">
-        <img src="/images/alveesarker.jpg" className="h-20 rounded-full mb-6" alt="" />
+        <img src="/images/anik-sadik.jpg" className="h-20 rounded-full mb-6" alt="" />
         <h2 className="max-w-80  text-left text-[25px] sm:text-[30px] text-base font-semibold tracking-[-0.015em] text-white">
-          Alvee Sarker
+          Anik Sadik Santo
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio voluptate cupiditate quia architecto quis consequuntur non accusamus illo aspernatur.
         </p>
       </WobbleCard>
       

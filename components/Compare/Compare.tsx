@@ -16,7 +16,7 @@ const Compare = () => {
                     your business.
                 </p>
             </div>
-            <div className='flex gap-10 sm:gap-20 containerForSpot'>
+            <div className='flex gap-10 sm:gap-14 containerForSpot'>
                 <CardSpotlightDemo2 />
                 <CardSpotlightDemo />
             </div>

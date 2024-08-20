@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Roboto, Outfit } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import { NavbarDemo } from "@/components/NavbarDemo/NavbarDemo";
+import Footer from "@/components/Footer/Footer";
 
 const robot_init = Roboto({ subsets: ["latin"], weight: ["100", "300", "700"], variable: '--font-roboto' });
-const outfit_init = Outfit({ subsets: ["latin"], weight: ["100", "300", "700"], variable: '--font-outfit' });
 
 export const metadata: Metadata = {
   title: "Growdio",
@@ -18,9 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${robot_init.variable}`}>
         <NavbarDemo />
         <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   );

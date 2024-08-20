@@ -2,6 +2,8 @@ import { GridBackgroundDemo } from '@/components/BackgroundServices/BackgroundSe
 import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService'
 import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo'
 import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
+import OurServices from '@/components/OurServices/OurServices'
+import ProductDemo from '@/components/ProductDemo/ProductDemo'
 import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import React from 'react'
@@ -68,8 +70,14 @@ const page = () => {
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
       <MacbookScrollDemo />
-      <ComprehensiveService comprehensive = {Comprehensive} />
-      <FloatingDockDemo />
+      <ComprehensiveService comprehensive={Comprehensive} />
+      <OurServices />
+      <div className='mt-40'>
+        <ProductDemo />
+      </div>
+      <div className='mt-20'>
+        <FloatingDockDemo />
+        </div>
       <WobbleCardDemo />
     </main>
   )

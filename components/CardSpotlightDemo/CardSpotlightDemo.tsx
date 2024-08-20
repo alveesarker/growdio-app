@@ -9,10 +9,10 @@ export function CardSpotlightDemo() {
       <div className="text-neutral-200 mt-16 relative z-20">
         Our maintaining steps
         <ul className="list-none  mt-2">
-          <Step title="Enter your email address" />
-          <Step title="Create a strong password" />
-          <Step title="Set up two-factor authentication" />
-          <Step title="Verify your identity" />
+          <Step title="Delivers tailored designs" />
+          <Step title="Embraces cutting-edge techniques" />
+          <Step title="Provides end-to-end solutions" />
+          <Step title="Values collaboration and quality" />
         </ul>
       </div>
     </CardSpotlight>

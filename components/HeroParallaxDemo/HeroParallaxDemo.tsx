@@ -7,97 +7,97 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par1.jpg",
+      "/images/10W-Charger.jpg",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par2.jpg",
+      "/images/Oraimo-4.jpg",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par3.jpg",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "/images/par4.jpg",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "/images/par5.jpg",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "/images/par6.jpg",
+      "/images/Oraimo-ear.jpg",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par7.jpg",
+      "/images/Oraimo-6.jpg",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par8.jpg",
+      "/images/Oraimo-speaker.jpg",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par9.jpg",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "/images/par10.jpg",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "/images/par1.jpg",
+      "/images/Oraimo-ear.jpg",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par2.jpg",
+      "/images/Oraimo-speaker.jpg",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par4.jpg",
+      "/images/oraimo-ear2.jpg",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par5.jpg",
+      "/images/treamer.jpg",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
     thumbnail:
-      "/images/par6.jpg",
+      "/images/Oraimo9.png",
+  },
+  {
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/187304895/ORAIMO-Social-Media-Post-design",
+    thumbnail:
+      "/images/Oraimo-watch1.png",
+  },
+
+  {
+    title: "Grocery Product Design",
+    link: "https://www.behance.net/gallery/195795297/Grocery-Product-Manipulation-Facebook-Ads-Design",
+    thumbnail:
+      "/images/Ramadan-meal.png",
+  },
+  {
+    title: "Moisturizer Poster Design",
+    link: "https://www.behance.net/gallery/185375829/Creative-Product-advertising-design",
+    thumbnail:
+      "/images/Most.png",
+  },
+  {
+    title: "Food Advertising Design",
+    link: "https://www.behance.net/gallery/185181751/Food-Manipulation-Advertising-Design-Vol02",
+    thumbnail:
+      "/images/Burger.png",
+  },
+  {
+    title: "Oraimo Social Media Design",
+    link: "https://www.behance.net/gallery/195795297/Grocery-Product-Manipulation-Facebook-Ads-Design",
+    thumbnail:
+      "/images/ear3.png",
   },
 ];
 

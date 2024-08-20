@@ -8,39 +8,45 @@ export const products = [
     {
         title: "Moonbeam",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par1.jpg",
+            "/images/latest-post1.png",
     },
     {
         title: "Cursor",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par2.jpg",
+            "/images/latest-post2.png",
     },
     {
         title: "Rogue",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par3.jpg",
+            "/images/latest-post3.png",
     },
 
     {
         title: "Editorially",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par4.jpg",
+            "/images/latest-post4.png",
     },
     {
         title: "Editrix AI",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par5.jpg",
+            "/images/latest-post5.png",
     },
     {
         title: "Pixel Perfect",
         text: "hello",
+        linkUrl:'',
         image:
-            "/images/par6.jpg",
+            "/images/latest-post6.png",
     }
 ];
 
@@ -64,6 +70,7 @@ const ProductDemo = () => {
                 {products.map((item, inx) => (
                     <DirectionAwareHoverDemo
                         key={inx}
+                        linkUrl={item.linkUrl}
                         imageUrl={item.image}
                         title={item.title}
                         text={item.text}
