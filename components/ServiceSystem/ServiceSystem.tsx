@@ -18,7 +18,7 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem }
 
 
     return (
-        <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between relative left-[50%] translate-x-[-50%] '>
+        <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between  left-[50%] translate-x-[-50%] '>
             <div className='w-[100%] lg:w-[67%]'>
                 <div className='w-[100%]'>
                     <h2 className="text-left sm:text-5xl max-sm:text-4xl dark:text-white text-white">
