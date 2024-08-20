@@ -50,6 +50,8 @@ const Footer = () => {
                     </div>
                     <div className='md:w-[20%] w-full flex flex-col items-start gap-2'>
                         <h3 className='text-white mb-3 text-[20px] font-semibold'>Location</h3>
+                        <p className='text-neutral-300 hover:text-white transition-all'>Bangladesh</p>
+                        <p className='text-neutral-300 hover:text-white transition-all'>USA</p>
                     </div>
                 </div>
             </div>
