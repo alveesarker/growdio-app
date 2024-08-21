@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaBehance } from 'react-icons/fa';
 import Button from '../Button/Button'
 import Link from 'next/link';
+import { LinkPreview } from '../ui/link-preview';
 
 const Footer = () => {
     return (
@@ -18,7 +19,7 @@ const Footer = () => {
                                     <FaFacebookF className='text-white hover:text-blue-500 transition-all h-6 w-6 cursor-pointer' />
                                 </Link>
                                 <Link href='https://www.instagram.com/team.growdio/' target='_black'>
-                                    <FaInstagram className='text-white hover:text-pink-500 transition-all h-6 w-6 cursor-pointer' />
+                                    <FaInstagram className='text-white hover:text-pink-600 transition-all h-6 w-6 cursor-pointer' />
                                 </Link>
                                 <Link href='https://www.linkedin.com/company/growdio/posts/?feedView=all' target='_black'>
                                     <FaLinkedinIn className='text-white hover:text-blue-400 transition-all h-6 w-6 cursor-pointer' />

@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Discovery & Strategy",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "We start by getting to know your brand, understanding your goals, and identifying the challenges you face. Through in-depth discussions and market research, we develop a strategic plan tailored to your needs.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
@@ -21,9 +21,9 @@ const content = [
     ),
   },
   {
-    title: "Real time changes",
+    title: "Creative Design & Development",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "With the strategy in place, our creative team brings your vision to life. From eye-catching designs to user-friendly interfaces, we focus on creating experiences that resonate with your audience.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
@@ -37,9 +37,9 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "Execution & Campaign Setup",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Once the design is finalized, we move to execution. Whether it's launching a new website, setting up a digital marketing campaign, or creating engaging content, we handle it all. Our expertise in campaign management ensures that your message reaches the right audience at the right time.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
@@ -53,9 +53,9 @@ const content = [
     ),
   },
   {
-    title: "Running out of content",
+    title: "Optimization & Growth",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Our job doesn’t end with the launch. We continuously monitor and optimize your campaigns, making data-driven adjustments to improve performance. We provide regular reports and insights, helping you to understand what’s working and where there’s room for improvement. Our goal is to help your brand grow and thrive in a competitive market.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image

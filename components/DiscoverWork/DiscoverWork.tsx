@@ -9,7 +9,7 @@ const DiscoverWork = () => {
                 How We Work
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                The digital landscape is constantly changing. To establish a strong foothold here, we focus on our key strengths, and take heed to our customer’s experiences to find the perfect solution for any problems we might come across.
+                We follow a streamlined process to ensure excellence in every project. We start with Research to understand your brand then move to Design to create visually compelling. Finally, we handle Implementation with precision.
                 </p>
             </div>
             <CanvasRevealEffectDemo/>

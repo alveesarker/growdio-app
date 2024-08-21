@@ -11,9 +11,7 @@ const Compare = () => {
                     Why would you <br /> want to work with us?
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                    Welcome to MailJet, the best transactional email service on the web.
-                    We provide reliable, scalable, and customizable email solutions for
-                    your business.
+                When you choose Growdio, you’re opting for a partner that prioritizes your success. Unlike other agencies, we offer personalized attention, innovative solutions, and a commitment to long-term growth.
                 </p>
             </div>
             <div className='flex gap-10 sm:gap-14 containerForSpot'>
