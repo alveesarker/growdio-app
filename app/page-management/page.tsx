@@ -129,12 +129,12 @@ const page = () => {
       title: "Paypal5",
       icon: (
         <Image
-        src="/images/logo.jpg"
-        width={40}
-        height={40}
-        alt="Aceternity Logo"
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
           className="rounded-lg"
-      />
+        />
       ),
       href: "",
     },

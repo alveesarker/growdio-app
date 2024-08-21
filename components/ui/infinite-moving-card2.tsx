@@ -32,7 +32,7 @@ export const InfiniteMovingCard2 = ({
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
-  
+
       // Clone the content to make it appear seamless
       scrollerContent.forEach((item) => {
         const duplicatedItem = item.cloneNode(true);
@@ -40,13 +40,13 @@ export const InfiniteMovingCard2 = ({
           scrollerRef.current.appendChild(duplicatedItem);
         }
       });
-  
+
       getDirection();
       getSpeed();
       setStart(true);
     }
   }
-  
+
   const getDirection = () => {
     if (containerRef.current) {
       if (direction === "left") {
@@ -84,17 +84,17 @@ export const InfiniteMovingCard2 = ({
       <ul
         ref={scrollerRef}
         className={cn(
-            "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
-            start && Style.animateScroll,
-            pauseOnHover && "hover:[animation-play-state:paused]"
+          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          start && Style.animateScroll,
+          pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-          className="w-[300px] h-[200px] relative rounded-3xl flex-shrink-0 p-5 md:w-[300px] "
-          style={{
+            className="w-[300px] h-[200px] relative rounded-3xl flex-shrink-0 p-5 md:w-[300px] "
+            style={{
               border: "0.5px solid rgba(123, 123, 123, 0.352)"
-          }}
+            }}
             key={idx}
           >
             <blockquote className="h-full w-full flex flex-col items-start justify-between">
@@ -106,17 +106,17 @@ export const InfiniteMovingCard2 = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-              <span className="flex items-center justify-center gap-2">
-                                    <img className="w-10 h-10 rounded-full" src={item.image} alt="" />
-                                    <span className="flex flex-col">
-                                        <span className=" text-sm font-bold leading-[1.6] text-neutral-50">
-                                            {item.name}
-                                        </span>
-                                        <span className=" text-xs leading-[1.6] text-gray-400 font-normal">
-                                            {item.title}
-                                        </span>
-                                    </span>
-                                </span>
+                <span className="flex items-center justify-center gap-2">
+                  <img className="w-10 h-10 rounded-full" src={item.image} alt="" />
+                  <span className="flex flex-col">
+                    <span className=" text-sm font-bold leading-[1.6] text-neutral-50">
+                      {item.name}
+                    </span>
+                    <span className=" text-xs leading-[1.6] text-gray-400 font-normal">
+                      {item.title}
+                    </span>
+                  </span>
+                </span>
               </div>
             </blockquote>
           </li>

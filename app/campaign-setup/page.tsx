@@ -20,7 +20,7 @@ const page = () => {
     imageOne: "/images/par3.jpg",
     imageTwo: "/images/navPtwo.jpg"
   };
-  
+
   const listItemForService = [
     "Campaign Setup Experts",
     "5+ Years of Experience",
@@ -33,7 +33,7 @@ const page = () => {
     "Adherence to Industry Standards",
     "24/7 Support & Optimization"
   ];
-  
+
   const Comprehensive = {
     namee: "Campaign Setup",
     projects: [
@@ -128,12 +128,12 @@ const page = () => {
       title: "Paypal5",
       icon: (
         <Image
-        src="/images/logo.jpg"
-        width={40}
-        height={40}
-        alt="Aceternity Logo"
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
           className="rounded-lg"
-      />
+        />
       ),
       href: "",
     },

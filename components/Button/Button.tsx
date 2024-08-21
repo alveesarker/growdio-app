@@ -4,7 +4,7 @@ import Styles from './Button.module.css'
 const Button = () => {
   return (
     <div>
-        <button className={Styles.btnDonate}>Book a call</button>
+      <button className={Styles.btnDonate}>Book a call</button>
     </div>
   )
 }

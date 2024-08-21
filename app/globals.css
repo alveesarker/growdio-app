@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 
-body{
+body {
   background-color: #0a0a0a;
   color: rgb;
 }
 
-.border{
+.border {
   border-width: 0.5px;
   border-color: rgba(110, 110, 110, 0.516);
 }
 
-.borderfooter{
+.borderfooter {
   border-width: 0.5px;
   border-color: rgba(110, 110, 110, 0.516);
   border-left: none;
@@ -28,16 +28,16 @@ body{
   font-family: var(--font-josefin_sans);
 }
 
-.space-grotesk-text{
+.space-grotesk-text {
   font-family: var(--font-space_grotesk);
 }
 
 
-.bebas-neue-text{
+.bebas-neue-text {
   font-family: var(--font-bebas_neue);
 }
 
-.borderWhite{
+.borderWhite {
   border: 1px solid rgba(168, 168, 168, 0.579);
   color: white;
 }
@@ -53,8 +53,8 @@ body{
 }
 
 
-@media (max-width:800px){
-  .containerForSpot{
+@media (max-width:800px) {
+  .containerForSpot {
     flex-direction: column;
   }
 }

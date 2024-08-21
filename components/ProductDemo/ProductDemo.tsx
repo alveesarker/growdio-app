@@ -8,21 +8,21 @@ export const products = [
     {
         title: "Moonbeam",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post1.png",
     },
     {
         title: "Cursor",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post2.png",
     },
     {
         title: "Rogue",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post3.png",
     },
@@ -30,21 +30,21 @@ export const products = [
     {
         title: "Editorially",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post4.png",
     },
     {
         title: "Editrix AI",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post5.png",
     },
     {
         title: "Pixel Perfect",
         text: "hello",
-        linkUrl:'',
+        linkUrl: '',
         image:
             "/images/latest-post6.png",
     }
@@ -59,7 +59,7 @@ const ProductDemo = () => {
                     The outcomes are self-evident
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                We deliver reliable, scalable, and customizable creative solutions for your brand. Whether you need eye-catching designs, engaging promotional content, or comprehensive campaign management, Growdio has you covered.
+                    We deliver reliable, scalable, and customizable creative solutions for your brand. Whether you need eye-catching designs, engaging promotional content, or comprehensive campaign management, Growdio has you covered.
                 </p>
             </div>
             <div className={Style.container}>

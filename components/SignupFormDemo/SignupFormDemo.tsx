@@ -17,10 +17,10 @@ export function SignupFormDemo() {
     return (
         <div className="max-w-md w-full rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-black dark:bg-black border">
             <h2 className="font-bold text-xl text-neutral-100 dark:text-neutral-200">
-            Send Us a Message
+                Send Us a Message
             </h2>
             <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300 lg:block md:hidden block">
-            We’d love to hear from you! Please fill out the form below.
+                We’d love to hear from you! Please fill out the form below.
             </p>
 
             <form className="my-8" onSubmit={handleSubmit}>
@@ -31,12 +31,12 @@ export function SignupFormDemo() {
                     </LabelInputContainer>
                     <LabelInputContainer>
                         <Label htmlFor="lastname">Last name</Label>
-                        <Input id="lastname"  type="text" />
+                        <Input id="lastname" type="text" />
                     </LabelInputContainer>
                 </div>
                 <LabelInputContainer className="mb-4">
                     <Label htmlFor="email">Email Address</Label>
-                    <Input id="email"  type="email" />
+                    <Input id="email" type="email" />
                 </LabelInputContainer>
                 <LabelInputContainer className="mb-8">
                     <Label htmlFor="message">Message</Label>
@@ -55,7 +55,7 @@ export function SignupFormDemo() {
                     <BottomGradient />
                 </button>
 
-                
+
             </form>
         </div>
     );

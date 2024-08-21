@@ -64,7 +64,7 @@ export function TabsDemo() {
   );
 }
 //@ts-ignore
-const DummyContent = ({image}) => {
+const DummyContent = ({ image }) => {
   return (
     <Image
       src={image}

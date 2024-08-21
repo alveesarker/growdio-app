@@ -14,18 +14,18 @@ import Value from '@/components/Value/Value'
 const About = () => {
   return (
     <main>
-    <div>
-      <GridBackgroundDemo/>
-      <Value/>
-      <DiscoverWork/>
-      <OurServices/>
-      <SparklesPreview/>
-      <Compare/>
-      {/* <FindUs /> */}
-      {/* <WeAccept/> */}
-      <GlobeDemo/>
-      <WobbleCardDemo/>
-    </div>
+      <div>
+        <GridBackgroundDemo />
+        <Value />
+        <DiscoverWork />
+        <OurServices />
+        <SparklesPreview />
+        <Compare />
+        {/* <FindUs /> */}
+        {/* <WeAccept/> */}
+        <GlobeDemo />
+        <WobbleCardDemo />
+      </div>
     </main>
   )
 }

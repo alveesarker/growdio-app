@@ -35,7 +35,7 @@ const page = () => {
     "Responsive to Client Feedback",
     "24/7 Support & Revisions"
   ];
-  
+
 
   const Comprehensive = {
     namee: "Motion Design",
@@ -132,12 +132,12 @@ const page = () => {
       title: "Paypal5",
       icon: (
         <Image
-        src="/images/logo.jpg"
-        width={40}
-        height={40}
-        alt="Aceternity Logo"
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
           className="rounded-lg"
-      />
+        />
       ),
       href: "",
     },
@@ -178,7 +178,7 @@ const page = () => {
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
       <MacbookScrollDemo />
-      <ComprehensiveService comprehensive = {Comprehensive} />
+      <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <WobbleCardDemo />
     </main>

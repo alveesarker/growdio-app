@@ -38,7 +38,7 @@ const CheckIcon = () => {
       fill="currentColor"
       className="h-4 w-4 text-neutral-500 mt-1 flex-shrink-0"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path
         d="M18 6L6 18M6 6l12 12"
         stroke="currentColor"

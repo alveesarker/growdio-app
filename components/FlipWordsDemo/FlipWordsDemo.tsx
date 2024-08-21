@@ -7,8 +7,8 @@ export function FlipWordsDemo() {
   return (
     <div className="h-[40rem] flex justify-start items-center">
       <div className="w-[100%] text-4xl font-bold text-center sm:text-6xl mx-auto text-neutral-100 dark:text-neutral-100">
-      Boost your brand with Growdio's
-      <br /><FlipWords words={words} />
+        Boost your brand with Growdio's
+        <br /><FlipWords words={words} />
       </div>
     </div>
   );

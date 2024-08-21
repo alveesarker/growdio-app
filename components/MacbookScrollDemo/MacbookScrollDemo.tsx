@@ -25,7 +25,7 @@ export function MacbookScrollDemo() {
 // Peerlist logo
 const Badge = ({ className }: { className?: string }) => {
   return (
-   
-      <></>
+
+    <></>
   );
 };

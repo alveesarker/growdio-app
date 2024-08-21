@@ -2,8 +2,8 @@ import React from 'react'
 import { LayoutGridDemo } from '../LayoutGridDemo/LayoutGridDemo'
 
 const FullLayout = () => {
-  return (
-    <div className=' flex flex-col items-center gap-10 max-w-[80rem] w-[80%] relative left-[50%] translate-x-[-50%] justify-center mt-20'>
+    return (
+        <div className=' flex flex-col items-center gap-10 max-w-[80rem] w-[80%] relative left-[50%] translate-x-[-50%] justify-center mt-20'>
             <div className='pl-4 pr-4'>
                 <h2 className="mb-5 text-center sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     Why would you <br /> want to work with us?
@@ -14,9 +14,9 @@ const FullLayout = () => {
                     your business.
                 </p>
             </div>
-            <LayoutGridDemo/>
+            <LayoutGridDemo />
         </div>
-  )
+    )
 }
 
 export default FullLayout

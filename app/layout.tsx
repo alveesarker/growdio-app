@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${robot_init.variable}`}>
         <NavbarDemo />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

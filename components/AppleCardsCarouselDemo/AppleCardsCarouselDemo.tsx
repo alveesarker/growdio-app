@@ -19,7 +19,7 @@ export function AppleCardsCarouselDemo() {
   );
 }
 //@ts-ignore
-const DummyContent = ({image, desc}) => {
+const DummyContent = ({ image, desc }) => {
   return (
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
@@ -54,37 +54,37 @@ const data = [
     title: "You can do more with AI.",
     src: "/images/par3.jpg",
     //@ts-ignore
-    content: <DummyContent image={'/images/par3.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par3.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
   {
     category: "Growdio",
     title: "Enhance your productivity.",
     src: "/images/par4.jpg",
-    content: <DummyContent image={'/images/par4.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par4.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
   {
     category: "Growdio",
     title: "Launching the new Apple Vision Pro.",
     src: "/images/par5.jpg",
-    content: <DummyContent image={'/images/par5.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par5.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
 
   {
     category: "Growdio",
     title: "Maps for your iPhone 15 Pro Max.",
     src: "/images/par6.jpg",
-    content: <DummyContent image={'/images/par6.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par6.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
   {
     category: "Growdio",
     title: "Photography just got better.",
     src: "/images/par7.jpg",
-    content: <DummyContent image={'/images/par7.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par7.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
   {
     category: "Growdio",
     title: "Hiring for a Staff Software Engineer",
     src: "/images/par9.jpg",
-    content: <DummyContent image={'/images/par9.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."}/>,
+    content: <DummyContent image={'/images/par9.jpg'} desc={"bringing your business to an \"Online Marketplace.\" It suggests that by leveraging Growdio's website development services, businesses can significantly enhance their online visibility. The visuals highlight the integration of digital tools and platforms, symbolizing the transition from traditional to online commerce, and emphasize the importance of establishing a strong online presence to reach a broader audience. The use of vibrant green and modern icons reinforces the theme of growth and digital engagement."} />,
   },
 ];

@@ -43,7 +43,7 @@ export const CardSpotlight = ({
       onMouseLeave={handleMouseLeave}
       {...props}
     >
-      
+
       {children}
     </div>
   );

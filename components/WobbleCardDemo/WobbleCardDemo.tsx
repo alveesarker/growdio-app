@@ -12,11 +12,11 @@ export function WobbleCardDemo() {
         className=""
       >
         <div className=" max-w-xs flex flex-col items-start justify-center">
-        <p className="mt-4 text-left text-[15px] text-neutral-200 sm:text-[18px]">
-        Have an Idea You Want to Bring to Life?
+          <p className="mt-4 text-left text-[15px] text-neutral-200 sm:text-[18px]">
+            Have an Idea You Want to Bring to Life?
           </p>
           <h2 className="text-left text-balance text-[25px] sm:text-[30px] md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          Let's Make it Happen!
+            Let's Make it Happen!
           </h2>
           <Link href={'/'} target="_black" className="w-auto h-auto px-10 py-3 mt-10 rounded-xl bg-transparent borderWhite z-10">Schedule a meeting</Link>
         </div>
@@ -30,7 +30,7 @@ export function WobbleCardDemo() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio voluptate cupiditate quia architecto quis consequuntur non accusamus illo aspernatur.
         </p>
       </WobbleCard>
-      
+
     </div>
   );
 }

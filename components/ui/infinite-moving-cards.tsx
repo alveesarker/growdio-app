@@ -62,7 +62,7 @@ export const InfiniteMovingCards = ({
       }
     }
   };
-  
+
 
   const getSpeed = () => {
     if (containerRef.current) {
@@ -96,8 +96,8 @@ export const InfiniteMovingCards = ({
             speed === "fast"
               ? "10s"
               : speed === "normal"
-              ? "70s"
-              : "120s",
+                ? "70s"
+                : "120s",
           animationIterationCount: "infinite",
         }}
       >
@@ -115,7 +115,7 @@ export const InfiniteMovingCards = ({
               className="w-full object-cover"
               style={{
                 width: '150px',
-                opacity:"0.7",
+                opacity: "0.7",
               }}
             />
           </li>

@@ -13,14 +13,14 @@ const people = [
     name: "Dog",
     designation: "Product Manager",
     image:
-    '/images/dog.jpg',
+      '/images/dog.jpg',
   },
   {
     id: 3,
     name: "Alvee",
     designation: "Data Scientist",
     image:
-    '/images/alveetwo.jpg',
+      '/images/alveetwo.jpg',
   },
   {
     id: 4,

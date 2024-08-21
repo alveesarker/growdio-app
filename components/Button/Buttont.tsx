@@ -12,7 +12,7 @@ const Buttont = () => {
         <button className={Styles.btnDonate}>
           Learn more
         </button>
-        </Link>
+      </Link>
     </div>
   );
 }

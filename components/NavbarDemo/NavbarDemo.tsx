@@ -23,7 +23,7 @@ function Navbar({ className }: { className?: string }) {
           <Link href={'/'}><img className="h-8 rounded-full cursor-pointer" src="/images/logo.jpg" alt="logo" /></Link>
         </div>
         <div className="flex gap-5 pt-[2px]">
-          
+
           <MenuItem setActive={setActive} active={active} item="Services">
             <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href="/creative-design">Creative Design</HoveredLink>

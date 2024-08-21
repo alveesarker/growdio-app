@@ -8,11 +8,11 @@ import React from 'react'
 const page = () => {
   return (
     <main>
-      <BackgroundContact/>
-      <SendMail/>
-      <FindUs/>
-      <LinkPreviewDemo/>
-      <WobbleCardDemo/>
+      <BackgroundContact />
+      <SendMail />
+      <FindUs />
+      <LinkPreviewDemo />
+      <WobbleCardDemo />
     </main>
   )
 }

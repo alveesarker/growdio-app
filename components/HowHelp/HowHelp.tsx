@@ -9,7 +9,7 @@ const HowHelp = () => {
                     How can we help you?
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                Welcome to Growdio, the leading digital creative agency. We provide reliable, scalable, and customizable creative solutions for your brand, ensuring that your message resonates and drives results.
+                    Welcome to Growdio, the leading digital creative agency. We provide reliable, scalable, and customizable creative solutions for your brand, ensuring that your message resonates and drives results.
                 </p>
             </div>
             <StickyScrollRevealDemo />

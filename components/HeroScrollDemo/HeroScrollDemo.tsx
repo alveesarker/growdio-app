@@ -11,7 +11,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-3xl md:text-4xl font-semibold text-[#ffffff] dark:text-white">
-             <Highlight>Unleash the power of</Highlight>  <br />
+              <Highlight>Unleash the power of</Highlight>  <br />
               <span className="text-4xl text-white md:text-[6rem] font-bold mt-1 leading-none">
                 GROWDIO
               </span>

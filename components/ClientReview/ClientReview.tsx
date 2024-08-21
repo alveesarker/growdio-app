@@ -7,16 +7,16 @@ const ClientReview = () => {
         <div className='flex flex-col items-center justify-center mt-40 gap-20'>
             <div className='pl-4 pr-4'>
                 <h2 className="mb-5 text-center sm:text-5xl max-sm:text-4xl dark:text-white text-white">
-                Client Success Stories
+                    Client Success Stories
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                See what our clients have to say about working with Growdio. Their feedback highlights the impact of our creative solutions and personalized service, showcasing how we turn vision into reality and drive success.
+                    See what our clients have to say about working with Growdio. Their feedback highlights the impact of our creative solutions and personalized service, showcasing how we turn vision into reality and drive success.
                 </p>
             </div>
             <div className='relative w-full'>
-            <InfiniteMovingCardsDemo3 />
-            <InfiniteMovingCardsDemo2 />
-            <InfiniteMovingCardsDemo3 />
+                <InfiniteMovingCardsDemo3 />
+                <InfiniteMovingCardsDemo2 />
+                <InfiniteMovingCardsDemo3 />
             </div>
         </div>
     )

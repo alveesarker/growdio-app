@@ -23,34 +23,34 @@ const testimonials = [
       "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
     name: "Charles Dickens",
     title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg"
+    image: "/images/alveesarker.jpg",
   },
   {
     quote:
       "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
     name: "Charles Dickens",
     title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg"
+    image: "/images/alveesarker.jpg",
   },
   {
     quote:
       "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
     name: "Charles Dickens",
     title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg"
+    image: "/images/alveesarker.jpg",
   },
   {
     quote:
       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
     name: "Jane Austen",
     title: "Pride and Prejudice",
-    image: "/images/alveesarker.jpg"
+    image: "/images/alveesarker.jpg",
   },
   {
     quote:
       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
     name: "Jane Austen",
     title: "Pride and Prejudice",
-    image: "/images/alveesarker.jpg"
+    image: "/images/alveesarker.jpg",
   },
 ];

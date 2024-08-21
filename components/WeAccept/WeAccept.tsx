@@ -9,7 +9,7 @@ const WeAccept = () => {
                     We Accept
                 </h2>
 
-            </div> 
+            </div>
         </div>
     )
 }

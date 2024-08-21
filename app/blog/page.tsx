@@ -9,12 +9,12 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <HeroScrollDemo/>
-      <ProductDemo/>
-      <AppleCardsCarouselDemo/>
-      <FullLayout/>
-      <TabsDemo/>
-      <WobbleCardDemo/>
+      <HeroScrollDemo />
+      <ProductDemo />
+      <AppleCardsCarouselDemo />
+      <FullLayout />
+      <TabsDemo />
+      <WobbleCardDemo />
     </div>
   )
 }

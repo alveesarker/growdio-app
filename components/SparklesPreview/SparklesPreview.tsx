@@ -17,7 +17,7 @@ export function SparklesPreview() {
           particleColor="#FFFFFF"
         />
       </div>
-      <Team/>
+      <Team />
     </div>
   );
 }
