@@ -4,6 +4,7 @@ import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo
 import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
 import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -61,6 +62,102 @@ const page = () => {
   }
 
 
+  const links = [
+    {
+      title: "Paypal1",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+
+    {
+      title: "Paypal2",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal3",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal4",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal5",
+      icon: (
+        <Image
+        src="/images/logo.jpg"
+        width={40}
+        height={40}
+        alt="Aceternity Logo"
+          className="rounded-lg"
+      />
+      ),
+      href: "",
+    },
+
+    {
+      title: "Paypal6",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal7",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+  ];
+
 
 
   return (
@@ -69,7 +166,7 @@ const page = () => {
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive = {Comprehensive} />
-      <FloatingDockDemo />
+      <FloatingDockDemo links={links} />
       <WobbleCardDemo />
     </main>
   )

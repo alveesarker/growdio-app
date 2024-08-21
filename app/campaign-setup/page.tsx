@@ -1,19 +1,17 @@
-import { GridBackgroundDemo } from '@/components/BackgroundServices/BackgroundServices'
-import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService'
-import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo'
-import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
-import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
-import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
-import React from 'react'
-
-
+import { GridBackgroundDemo } from '@/components/BackgroundServices/BackgroundServices';
+import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService';
+import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo';
+import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo';
+import ServiceSystem from '@/components/ServiceSystem/ServiceSystem';
+import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo';
+import Image from 'next/image';
+import React from 'react';
 
 const page = () => {
-
   const head = {
     fstLine: 'Strategizing and Launching',
     sndLine: 'Impactful Campaigns'
-  }
+  };
 
   const serviceSystem = {
     namee: "Campaign Setup",
@@ -21,7 +19,8 @@ const page = () => {
     paragraphTwo: "We focus on leveraging industry best practices and our own creative expertise to ensure every campaign setup is strategically crafted for seamless execution.",
     imageOne: "/images/par3.jpg",
     imageTwo: "/images/navPtwo.jpg"
-  }
+  };
+  
   const listItemForService = [
     "Campaign Setup Experts",
     "5+ Years of Experience",
@@ -35,7 +34,6 @@ const page = () => {
     "24/7 Support & Optimization"
   ];
   
-
   const Comprehensive = {
     namee: "Campaign Setup",
     projects: [
@@ -70,20 +68,114 @@ const page = () => {
         link: "1",
       }
     ]
-  }
+  };
 
+  const links = [
+    {
+      title: "Paypal1",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
 
+    {
+      title: "Paypal2",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal3",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal4",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal5",
+      icon: (
+        <Image
+        src="/images/logo.jpg"
+        width={40}
+        height={40}
+        alt="Aceternity Logo"
+          className="rounded-lg"
+      />
+      ),
+      href: "",
+    },
+
+    {
+      title: "Paypal6",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal7",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+  ];
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
       <MacbookScrollDemo />
-      <ComprehensiveService comprehensive = {Comprehensive} />
-      <FloatingDockDemo />
+      <ComprehensiveService comprehensive={Comprehensive} />
+      <FloatingDockDemo links={links} />
       <WobbleCardDemo />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;

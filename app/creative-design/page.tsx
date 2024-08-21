@@ -6,6 +6,7 @@ import OurServices from '@/components/OurServices/OurServices'
 import ProductDemo from '@/components/ProductDemo/ProductDemo'
 import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -62,6 +63,101 @@ const page = () => {
     ]
   }
 
+  const links = [
+    {
+      title: "Paypal1",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+
+    {
+      title: "Paypal2",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal3",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal4",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal5",
+      icon: (
+        <Image
+        src="/images/logo.jpg"
+        width={40}
+        height={40}
+        alt="Aceternity Logo"
+          className="rounded-lg"
+      />
+      ),
+      href: "",
+    },
+
+    {
+      title: "Paypal6",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+    {
+      title: "Paypal7",
+      icon: (
+        <Image
+          src="/images/logo.jpg"
+          width={40}
+          height={40}
+          alt="Aceternity Logo"
+          className="rounded-lg"
+        />
+      ),
+      href: "",
+    },
+  ];
 
 
 
@@ -76,7 +172,7 @@ const page = () => {
         <ProductDemo />
       </div>
       <div className='mt-20'>
-        <FloatingDockDemo />
+      <FloatingDockDemo links={links} />
         </div>
       <WobbleCardDemo />
     </main>

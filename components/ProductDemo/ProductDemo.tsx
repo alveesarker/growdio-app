@@ -59,11 +59,7 @@ const ProductDemo = () => {
                     The outcomes are self-evident
                 </h2>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                    Welcome to MailJet, the best transactional email service on the web.
-                    We provide reliable, scalable, and customizable email solutions for
-                    your business. Whether you&apos;re sending order confirmations,
-                    password reset emails, or promotional campaigns, MailJet has got you
-                    covered.
+                We deliver reliable, scalable, and customizable creative solutions for your brand. Whether you need eye-catching designs, engaging promotional content, or comprehensive campaign management, Growdio has you covered.
                 </p>
             </div>
             <div className={Style.container}>
