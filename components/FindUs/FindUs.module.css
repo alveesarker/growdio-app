@@ -1,15 +1,14 @@
 .container{
     display: flex;
     flex-direction: column;
-   max-width: 80rem;
+    max-width: 80rem;
+    width: 80%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     height: 600px;
     gap: 80px;
     margin-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .container h1{
     font-size: 50px;

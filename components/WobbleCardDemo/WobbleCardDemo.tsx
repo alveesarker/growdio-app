@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "../ui/wobble-card";
+import Link from "next/link";
 
 export function WobbleCardDemo() {
   return (
@@ -17,7 +18,7 @@ export function WobbleCardDemo() {
           <h2 className="text-left text-balance text-[25px] sm:text-[30px] md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Let's Make it Happen!
           </h2>
-          <button type="button" className="w-auto h-auto px-10 py-3 mt-10 rounded-xl bg-transparent borderWhite cursor-pointer ">Schedule a meeting</button>
+          <Link href={'/'} target="_black" className="w-auto h-auto px-10 py-3 mt-10 rounded-xl bg-transparent borderWhite z-10">Schedule a meeting</Link>
         </div>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-black">

@@ -4,7 +4,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 
 export function LinkPreviewDemo() {
   return (
-    <div className="flex justify-center items-center relative left-[50%] translate-x-[-50%] h-[25rem] flex-col mt-20 px-10 max-w-[80rem]">
+    <div className="flex justify-center items-center relative left-[50%] translate-x-[-50%] h-[25rem] flex-col mt-20 max-w-[80rem] w-[80%]">
       <p className="text-neutral-400 dark:text-neutral-400 text-xl md:text-3xl w-[100%] mb-10">
         Got a project idea or need a creative boost? At Growdio, we're all about turning your visions into reality. Whether it's a fresh website design, a branding overhaul, or digital marketing strategies that work, we've got you covered.
       </p>
