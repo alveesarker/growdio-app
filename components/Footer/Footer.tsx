@@ -16,13 +16,13 @@ const Footer = () => {
                             <Button />
                             <div className='flex items-center gap-5'>
                                 <Link href='https://www.facebook.com/growdio' target='_black'>
-                                    <FaFacebookF className='text-white hover:text-blue-500 transition-all h-6 w-6 cursor-pointer' />
+                                    <FaFacebookF className='text-white hover:text-[#0866ff] transition-all h-6 w-6 cursor-pointer' />
                                 </Link>
                                 <Link href='https://www.instagram.com/team.growdio/' target='_black'>
-                                    <FaInstagram className='text-white hover:text-pink-600 transition-all h-6 w-6 cursor-pointer' />
+                                    <FaInstagram className='text-white hover:text-[#fe0ba5] transition-all h-6 w-6 cursor-pointer' />
                                 </Link>
                                 <Link href='https://www.linkedin.com/company/growdio/posts/?feedView=all' target='_black'>
-                                    <FaLinkedinIn className='text-white hover:text-blue-400 transition-all h-6 w-6 cursor-pointer' />
+                                    <FaLinkedinIn className='text-white hover:text-[#0a54c2] transition-all h-6 w-6 cursor-pointer' />
                                 </Link>
                                 <Link href=''>
                                     <FaBehance className='text-white h-6 hover:text-blue-600 transition-all w-6 cursor-pointer' />
