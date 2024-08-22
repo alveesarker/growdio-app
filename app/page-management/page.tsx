@@ -73,97 +73,70 @@ const page = () => {
 
   const links = [
     {
-      title: "Paypal1",
+      title: "Adobe XD",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/axd.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="XD logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://helpx.adobe.com/support/xd.html",
     },
 
     {
-      title: "Paypal2",
+      title: "Buffer",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/buffer-logo.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="Buffer logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://buffer.com/",
     },
     {
-      title: "Paypal3",
+      title: "Wardpress",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/wardpress-logo.webp"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="wardpress logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://wordpress.org/download/",
     },
     {
-      title: "Paypal4",
+      title: "Sucuri",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/sucuri.webp"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="sucuri logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://sucuri.net/",
     },
     {
-      title: "Paypal5",
+      title: "Github",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/github-logo.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="github logo"
+          className=""
         />
       ),
-      href: "",
-    },
-
-    {
-      title: "Paypal6",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal7",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
+      href: "https://github.com/",
     },
   ];
 

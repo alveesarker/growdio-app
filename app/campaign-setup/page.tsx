@@ -172,7 +172,7 @@ const page = () => {
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
-      <FloatingDockDemo links={links} />
+      {/* <FloatingDockDemo links={links} /> */}
       <WobbleCardDemo />
     </main>
   );

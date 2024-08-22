@@ -75,97 +75,17 @@ const page = () => {
 
   const links = [
     {
-      title: "Paypal1",
+      title: "Camera",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/camera.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="camera logo"
+          className=""
         />
       ),
-      href: "",
-    },
-
-    {
-      title: "Paypal2",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal3",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal4",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal5",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-
-    {
-      title: "Paypal6",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal7",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
+      href: "https://en.wikipedia.org/wiki/Camera",
     },
   ];
 

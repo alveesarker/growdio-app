@@ -75,98 +75,59 @@ const page = () => {
 
   const links = [
     {
-      title: "Paypal",
+      title: "Adobe Pr",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/apr.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="adobe pr logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://www.adobe.com/products/premiere.html",
     },
 
     {
-      title: "Paypal1",
+      title: "Adobe Ae",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/aae.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="adobe ae logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://www.adobe.com/products/aftereffects.html",
     },
     {
-      title: "Paypal2",
+      title: "Filmora",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/filmora.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
+          alt="filmora Logo"
           className="rounded-lg"
         />
       ),
-      href: "",
+      href: "https://filmora.wondershare.net/",
     },
     {
-      title: "Paypal3",
+      title: "Capcut",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/capcut.jpg"
           width={40}
           height={40}
-          alt="Aceternity Logo"
+          alt="capcut Logo"
           className="rounded-lg"
         />
       ),
-      href: "",
+      href: "https://www.capcut.com/",
     },
-    {
-      title: "Paypal4",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-
-    {
-      title: "Paypal5",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal6",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
+    
   ];
 
 

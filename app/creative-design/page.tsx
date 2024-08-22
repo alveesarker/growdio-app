@@ -65,97 +65,57 @@ const page = () => {
 
   const links = [
     {
-      title: "Paypal1",
+      title: "Adobe PS",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/aps.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="Photoshop logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://www.adobe.com/products/photoshop.html",
     },
 
     {
-      title: "Paypal2",
+      title: "Adobe ID",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/aid.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="InDesign logo"
+          className=""
         />
       ),
-      href: "",
+      href: "https://www.adobe.com/products/indesign.html",
     },
     {
-      title: "Paypal3",
+      title: "AI",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/aai.png"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="Adobe AI"
+          className=""
         />
       ),
-      href: "",
+      href: "https://www.adobe.com/products/illustrator.html",
     },
     {
-      title: "Paypal4",
+      title: "Figma",
       icon: (
         <Image
-          src="/images/logo.jpg"
+          src="/images/figma-logo.jpg"
           width={40}
           height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
+          alt="Figma"
+          className=""
         />
       ),
-      href: "",
-    },
-    {
-      title: "Paypal5",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-
-    {
-      title: "Paypal6",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
-    },
-    {
-      title: "Paypal7",
-      icon: (
-        <Image
-          src="/images/logo.jpg"
-          width={40}
-          height={40}
-          alt="Aceternity Logo"
-          className="rounded-lg"
-        />
-      ),
-      href: "",
+      href: "https://www.figma.com/",
     },
   ];
 
