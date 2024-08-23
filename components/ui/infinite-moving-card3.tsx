@@ -27,7 +27,14 @@ export const InfiniteMovingCard3 = ({
     useEffect(() => {
         addAnimation();
     }, []);
+
     const [start, setStart] = useState(false);
+    let isDragging = false;
+    let startPosition = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID: number;
+
     function addAnimation() {
         if (containerRef.current && scrollerRef.current) {
             const scrollerContent = Array.from(scrollerRef.current.children);
@@ -59,11 +66,10 @@ export const InfiniteMovingCard3 = ({
                     "--animation-direction",
                     "reverse"
                 );
-                // containerRef.current.classList.add("animate-scroll-right");
-                // containerRef.current.classList.remove("animate-scroll");
             }
         }
     };
+
     const getSpeed = () => {
         if (containerRef.current) {
             if (speed === "fast") {
@@ -75,19 +81,65 @@ export const InfiniteMovingCard3 = ({
             }
         }
     };
+
+    const touchStart = (index: number) => (event: React.TouchEvent) => {
+        isDragging = true;
+        startPosition = getPositionX(event);
+        animationID = requestAnimationFrame(animation);
+        scrollerRef.current?.classList.remove("animate-scroll");
+    };
+
+    const touchMove = (event: React.TouchEvent) => {
+        if (isDragging) {
+            const currentPosition = getPositionX(event);
+            currentTranslate = prevTranslate + currentPosition - startPosition;
+        }
+    };
+
+    const touchEnd = () => {
+        isDragging = false;
+        prevTranslate = currentTranslate;
+        cancelAnimationFrame(animationID);
+        scrollerRef.current?.classList.add("animate-scroll");
+    };
+
+    const getPositionX = (event: React.TouchEvent) => {
+        return event.touches[0].clientX;
+    };
+
+    const animation = () => {
+        setScrollerPosition();
+        if (isDragging) requestAnimationFrame(animation);
+    };
+
+    const setScrollerPosition = () => {
+        if (scrollerRef.current) {
+            scrollerRef.current.style.transform = `translateX(${currentTranslate}px)`;
+        }
+    };
+
     return (
         <div
             ref={containerRef}
             className={cn(
-                "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+                "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
                 className
             )}
+            onMouseDown={touchStart(0)}
+            onMouseMove={touchMove}
+            onMouseUp={touchEnd}
+            onMouseLeave={() => {
+                if (isDragging) touchEnd();
+            }}
+            onTouchStart={touchStart(0)}
+            onTouchMove={touchMove}
+            onTouchEnd={touchEnd}
         >
             <ul
                 ref={scrollerRef}
                 className={cn(
-                    " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
-                    start && "animate-scroll ",
+                    "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+                    start && "animate-scroll",
                     pauseOnHover && "hover:[animation-play-state:paused]"
                 )}
             >
@@ -95,7 +147,7 @@ export const InfiniteMovingCard3 = ({
                     <li
                         className="w-[300px] h-[200px] relative rounded-3xl flex-shrink-0 p-5 md:w-[300px]"
                         style={{
-                            border: "0.5px solid rgba(123, 123, 123, 0.352)"
+                            border: "0.5px solid rgba(123, 123, 123, 0.352)",
                         }}
                         key={idx}
                     >
@@ -104,17 +156,21 @@ export const InfiniteMovingCard3 = ({
                                 aria-hidden="true"
                                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                             ></div>
-                            <span className=" relative z-20 text-sm leading-[1.6] text-gray-300 font-normal">
+                            <span className="relative z-20 text-sm leading-[1.6] text-gray-300 font-normal">
                                 {item.quote}
                             </span>
                             <div className="relative z-20 mt-6 flex flex-row items-center">
                                 <span className="flex items-center justify-center gap-2">
-                                    <img className="w-10 h-10 rounded-full" src={item.image} alt="" />
+                                    <img
+                                        className="w-10 h-10 rounded-full"
+                                        src={item.image}
+                                        alt=""
+                                    />
                                     <span className="flex flex-col">
-                                        <span className=" text-sm font-bold leading-[1.6] text-neutral-50">
+                                        <span className="text-sm font-bold leading-[1.6] text-neutral-50">
                                             {item.name}
                                         </span>
-                                        <span className=" text-xs leading-[1.6] text-gray-400 font-normal">
+                                        <span className="text-xs leading-[1.6] text-gray-400 font-normal">
                                             {item.title}
                                         </span>
                                     </span>

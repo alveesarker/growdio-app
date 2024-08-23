@@ -55,10 +55,10 @@ const ProductDemo = () => {
     return (
         <div>
             <div className='pl-4 pr-4'>
-                <h2 className="roboto mb-5 text-center sm:text-5xl max-sm:text-4xl dark:text-white text-white">
+                <h2 className="roboto mb-5 text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     The outcomes are self-evident
                 </h2>
-                <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
+                <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
                     We deliver reliable, scalable, and customizable creative solutions for your brand. Whether you need eye-catching designs, engaging promotional content, or comprehensive campaign management, Growdio has you covered.
                 </p>
             </div>

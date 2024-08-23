@@ -20,10 +20,10 @@ export function PlaceholdersAndVanishInputDemo() {
   };
   return (
     <div className="h-[40rem] flex flex-col justify-center items-center px-4">
-      <h2 className="sm:text-5xl max-sm:text-4xl text-center dark:text-white text-white">
+      <h2 className="sm:text-5xl max-sm:text-4xl geomatrixBold text-center dark:text-white text-white">
         Feel free to ask Growdio anything
       </h2>
-      <p className="mb-10 text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">This feature is coming soon. Stay tuned for more details and get ready to connect with us in a whole new way</p>
+      <p className="mb-10 text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">This feature is coming soon. Stay tuned for more details and get ready to connect with us in a whole new way</p>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
         onChange={handleChange}
