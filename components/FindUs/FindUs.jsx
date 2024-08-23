@@ -4,7 +4,7 @@ import Styles from './FindUs.module.css';
 const FindUs = () => {
     return (
         <div className={Styles.container}>
-            <h1 className='text-white text-5xl font-bold'>Find Us</h1>
+            <h1 className='text-white text-5xl geomatrixBold font-bold'>Find Us</h1>
             <div className={Styles.addressSection}>
                 <div className={Styles.address}>
                     <h1 className='text-white'>Bangladesh</h1>
