@@ -2,11 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'GeomatrixLight';
+  src: url('/fonts/GeomatrixLight-9Yrm2.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeomatrixBold';
+  src: url('/fonts/GeomatrixBold-6YBZ1.ttf') format('truetype');
+  font-style: normal;
+}
+
+
 
 body {
   background-color: #0a0a0a;
-  color: rgb;
+  font-family: 'GeomatrixLight', sans-serif;
 }
+
+h1,h2{
+  /* font-family: 'GeomatrixBold', sans-serif; */
+  /* font-weight: 700; */
+}
+
 
 .border {
   border-width: 0.5px;
@@ -20,22 +39,7 @@ body {
   border-right: none;
 }
 
-.outfit-text {
-  font-family: var(--font-outfit);
-}
 
-.josefin-text {
-  font-family: var(--font-josefin_sans);
-}
-
-.space-grotesk-text {
-  font-family: var(--font-space_grotesk);
-}
-
-
-.bebas-neue-text {
-  font-family: var(--font-bebas_neue);
-}
 
 .borderWhite {
   border: 1px solid rgba(168, 168, 168, 0.579);

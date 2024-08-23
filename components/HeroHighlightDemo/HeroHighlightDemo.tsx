@@ -19,10 +19,10 @@ export function HeroHighlightDemo() {
       }}
       className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-100 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
     >
-      Transforming Your Vision<br /> into Reality with Digital Solutions  <br />and{" "}
-      <Highlight className="text-white dark:text-white">
+      Transforming Your Vision<br /> into Reality with Digital Solutions and<br />
+      {/* <Highlight className="text-white dark:text-white"> */}
         Leading-Edge Innovation
-      </Highlight>
+      {/* </Highlight> */}
     </motion.h1>
   );
 }

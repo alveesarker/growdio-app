@@ -5,7 +5,7 @@ import { CardSpotlight } from '../ui/card-spotlight'
 
 const Compare = () => {
     return (
-        <div className=' flex flex-col items-center justify-center mt-40 gap-20'>
+        <div className=' flex flex-col items-center justify-center mt-40 gap-10'>
             <div className='pl-4 pr-4'>
                 <h2 className="mb-5 text-center sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     Why would you <br /> want to work with us?

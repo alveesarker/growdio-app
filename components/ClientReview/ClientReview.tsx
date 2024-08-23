@@ -1,6 +1,7 @@
 import React from 'react'
 import { InfiniteMovingCardsDemo2 } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo'
 import { InfiniteMovingCardsDemo3 } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo3'
+import { WobbleCardDemo } from '../WobbleCardDemo/WobbleCardDemo'
 
 const ClientReview = () => {
     return (
@@ -15,9 +16,8 @@ const ClientReview = () => {
             </div>
             <div className='relative w-full'>
                 <InfiniteMovingCardsDemo3 />
-                <InfiniteMovingCardsDemo2 />
-                <InfiniteMovingCardsDemo3 />
             </div>
+            <WobbleCardDemo/>
         </div>
     )
 }
