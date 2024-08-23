@@ -21,15 +21,15 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem }
         <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between relative left-[50%] translate-x-[-50%] '>
             <div className='w-[100%] lg:w-[67%]'>
                 <div className='w-[100%]'>
-                    <h2 className="text-left sm:text-5xl max-sm:text-4xl dark:text-white text-white">
+                    <h2 className="text-left geomatrixBold sm:text-4xl max-sm:text-3xl dark:text-white text-white">
                         {serviceSystem.namee} Service
                     </h2>
-                    <p className="text-neutral-500 my-8 text-sm text-left relative z-10">{serviceSystem.paragraphOne}</p>
+                    <p className="text-neutral-400 my-8 text-sm text-left relative z-10">{serviceSystem.paragraphOne}</p>
                 </div>
                 <img className="w-full h-auto md:h-[350px] lg:h-[500px] rounded-3xl object-cover" src={serviceSystem.imageOne} alt="" />
 
                 <div className='mt-8'>
-                    <p className="text-neutral-500 mb-8 text-sm text-left relative z-10">
+                    <p className="text-neutral-400 mb-8 text-sm text-left relative z-10">
                         {serviceSystem.paragraphTwo}
                     </p>
                     <Button />
@@ -40,7 +40,7 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem }
                     <img src={serviceSystem.imageTwo} className='w-full h-auto md:h-[300px] lg:h-[250px] object-cover rounded-t-3xl' alt="" />
                 </div>
                 <div className='w-[100%] flex flex-col items-start'>
-                    <h3 className='text-4xl my-4 text-white'>{serviceSystem.namee}</h3>
+                    <h3 className='text-3xl geomatrixBold my-4 text-white'>{serviceSystem.namee}</h3>
                     <ul>
                         {listItem.map((item: string, idx: number) => (
                             <li className='mb-3 text-neutral-400 text-lg font-normal list-disc ml-4' key={idx}>{item}</li>

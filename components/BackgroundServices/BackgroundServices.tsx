@@ -28,8 +28,9 @@ export function GridBackgroundDemo({ head }) {
                     transition={{
                         duration: 0.5,
                         ease: [0.4, 0.0, 0.2, 1],
+                        delay:0.5,
                     }}
-                    className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-100 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+                    className="text-2xl px-4 md:text-4xl geomatrixBold lg:text-5xl font-bold text-neutral-100 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                 >{head.fstLine}<br />{head.sndLine}
                 </motion.h1>
                 <div className="w-100% flex items-center justify-center mt-10">
