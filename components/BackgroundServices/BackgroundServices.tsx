@@ -31,7 +31,7 @@ export function GridBackgroundDemo({ head }) {
                         delay:0.5,
                     }}
                     className="text-3xl px-4 md:text-4xl geomatrixBold lg:text-5xl font-bold text-neutral-100 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
-                >{head.fstLine}<br />{head.sndLine}
+                >{head.fstLine}{" "}{head.sndLine}
                 </motion.h1>
                 <div className="w-100% flex items-center justify-center mt-10">
                     <Button />
