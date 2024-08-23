@@ -12,8 +12,8 @@ import React from 'react'
 const page = () => {
 
   const head = {
-    fstLine: 'Transforming Raw Footage into',
-    sndLine: 'Compelling Stories'
+    fstLine: 'Transforming ',
+    sndLine: 'Raw Footage into Compelling Stories'
   }
 
   const serviceSystem = {

@@ -12,8 +12,8 @@ import React from 'react'
 const page = () => {
 
   const head = {
-    fstLine: 'Crafting Visual Masterpieces',
-    sndLine: 'for Your Brand'
+    fstLine: 'Crafting Visual Masterpieces for',
+    sndLine: 'Your Brand'
   }
 
   const serviceSystem = {

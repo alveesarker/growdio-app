@@ -9,8 +9,8 @@ import React from "react";
 
 const page = () => {
   const head = {
-    fstLine: 'Creating Engaging Reels That',
-    sndLine: 'Captivate Audiences'
+    fstLine: 'Creating Engaging Reels That Captivate',
+    sndLine: 'Audiences'
   }
 
   const serviceSystem = {

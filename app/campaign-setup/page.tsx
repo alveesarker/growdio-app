@@ -9,8 +9,8 @@ import React from 'react';
 
 const page = () => {
   const head = {
-    fstLine: 'Strategizing and Launching',
-    sndLine: 'Impactful Campaigns'
+    fstLine: 'Strategizing and Launching Impactful',
+    sndLine: 'Campaigns'
   };
 
   const serviceSystem = {
