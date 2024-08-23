@@ -19,7 +19,7 @@ export function HeroHighlightDemo() {
       }}
       className="text-3xl px-4 geomatrixBold md:text-4xl lg:text-5xl font-bold text-neutral-100 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
     >
-      Transforming Your Vision into Reality with Digital Solutions
+      Transforming Your Vision into Reality with Digital <br /> Solutions
     </motion.h1>
   );
 }
