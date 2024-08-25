@@ -12,7 +12,7 @@ export function GridBackgroundDemo({ head }) {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
 
-            <div>
+            <div className='w-[95%] sm:w-[50%]'>
                 <div className='w-full flex items-center justify-center'>
                     <img src="/images/growdio.png" className='h-14 sm:h-20' alt="growdio" />
                 </div>
