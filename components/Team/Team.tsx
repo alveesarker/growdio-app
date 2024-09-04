@@ -5,44 +5,72 @@ const Team = () => {
 
     const team = [
         {
-            name: "Alvee Sarker",
-            post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
+            name: "Anik Sadik Santo",
+            post: "Founder",
+            image: "/images/sadik.jpg",
+            facebook: "https://www.facebook.com/Alveesarker01",
+            behance: "https://www.facebook.com/Alveesarker01"
+        },
+        {
+            name: "Sabbir Ahmed",
+            post: "Co-Founder",
+            image: "/images/sabbir.jpg",
+            facebook: "https://www.facebook.com/Alveesarker01",
+            behance: "https://www.facebook.com/Alveesarker01"
+        },
+        {
+            name: "Mehedi Hasan Emon",
+            post: "Founder & CEO",
+            image: "/images/.jpg",
+            facebook: "https://www.facebook.com/Alveesarker01",
+            behance: "https://www.facebook.com/Alveesarker01"
+        },
+        {
+            name: "Yesin Arafat",
+            post: "Co-Founder",
+            image: "/images/.jpg",
+            facebook: "https://www.facebook.com/Alveesarker01",
+            behance: "https://www.facebook.com/Alveesarker01"
+        },
+        {
+            name: "Mohammad Mahfuzul Haque",
+            post: "Graphic Designer",
+            image: "/images/mahfuz.png",
+            facebook: "https://www.facebook.com/Alveesarker01",
+            behance: "https://www.facebook.com/Alveesarker01"
+        },
+        {
+            name: "K.M Sadman Arifin Sami",
+            post: "Project Manager",
+            image: "/images/sadman.jpg",
             facebook: "https://www.facebook.com/Alveesarker01",
             behance: "https://www.facebook.com/Alveesarker01"
         },
         {
             name: "Alvee Sarker",
             post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
+            image: "/images/alveesarker.jpg",
             facebook: "https://www.facebook.com/Alveesarker01",
             behance: "https://www.facebook.com/Alveesarker01"
         },
         {
-            name: "Alvee Sarker",
-            post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
+            name: "Ahmed Ullah Musa",
+            post: "Chief Marketing Officer",
+            image: "/images/musa.jpg",
             facebook: "https://www.facebook.com/Alveesarker01",
             behance: "https://www.facebook.com/Alveesarker01"
         },
         {
-            name: "Alvee Sarker",
-            post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
+            name: "Raj Habib",
+            post: "Digital Marketer",
+            image: "/images/habib.png",
             facebook: "https://www.facebook.com/Alveesarker01",
             behance: "https://www.facebook.com/Alveesarker01"
         },
         {
-            name: "Alvee Sarker",
-            post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
-            facebook: "https://www.facebook.com/Alveesarker01",
-            behance: "https://www.facebook.com/Alveesarker01"
-        },
-        {
-            name: "Alvee Sarker",
-            post: "Web Developer",
-            image: "/images/alveesarker1.jpg",
+            name: "Saber Hossain Shihab ",
+            post: "Digital Marketer",
+            image: "/images/shihab.jpg",
             facebook: "https://www.facebook.com/Alveesarker01",
             behance: "https://www.facebook.com/Alveesarker01"
         },
