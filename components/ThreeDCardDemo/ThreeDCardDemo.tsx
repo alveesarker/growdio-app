@@ -33,6 +33,7 @@ export function ThreeDCardDemo({ team }) {
           />
         </CardItem>
         <div className="flex justify-between items-center mt-10">
+          {/* Static Facebook and LinkedIn buttons */}
           <CardItem
             translateZ={20}
             as={Link}
@@ -42,15 +43,49 @@ export function ThreeDCardDemo({ team }) {
           >
             Facebook
           </CardItem>
+
           <CardItem
             translateZ={20}
             as={Link}
-            href={team.behance}
+            href={team.linkedin}
             target="__blank"
             className="px-3 py-1 rounded-xl bg-white dark:bg-white dark:text-white text-black text-xs font-bold"
           >
-            Behance
+            Linkedin
           </CardItem>
+
+          {/* Dynamic rendering for Behance, Instagram, or Github */}
+          {team.behance ? (
+            <CardItem
+              translateZ={20}
+              as={Link}
+              href={team.behance}
+              target="__blank"
+              className="px-3 py-1 rounded-xl bg-white dark:bg-white dark:text-white text-black text-xs font-bold"
+            >
+              Behance
+            </CardItem>
+          ) : team.instagram ? (
+            <CardItem
+              translateZ={20}
+              as={Link}
+              href={team.instagram}
+              target="__blank"
+              className="px-3 py-1 rounded-xl bg-white dark:bg-white dark:text-white text-black text-xs font-bold"
+            >
+              Instagram
+            </CardItem>
+          ) : team.github ? (
+            <CardItem
+              translateZ={20}
+              as={Link}
+              href={team.github}
+              target="__blank"
+              className="px-3 py-1 rounded-xl bg-white dark:bg-white dark:text-white text-black text-xs font-bold"
+            >
+              Github
+            </CardItem>
+          ) : null}
         </div>
       </CardBody>
     </CardContainer>
