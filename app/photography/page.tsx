@@ -20,8 +20,8 @@ const page = () => {
     namee: "Photography",
     paragraphOne: "Elevate your brand's visual identity with Growdio's top-tier photography services. Our team specializes in creating striking images that highlight your unique style and message. From corporate headshots and product photography to lifestyle shoots and event coverage, we provide tailored solutions to meet your specific needs. ",
     paragraphTwo: "At Growdio, we offer professional photography services designed to capture the essence of every moment. ",
-    imageOne: "/images/par9.jpg",
-    imageTwo: "/images/navPtwo.jpg"
+    imageOne: "/images/photography_1.jpg",
+    imageTwo: "/images/photography_2.jpg"
   }
   const listItemForService = [
     "Professional Photography Services",

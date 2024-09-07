@@ -19,8 +19,8 @@ const page = () => {
       "Transform your content with our stunning Graphics and Motion works. Our captivating social media graphic design services will be sure to leave a lasting impression on the viewers. Our animations will tell compelling stories, something that grabs your audience’s interests.",
     paragraphTwo:
       "At Growdio,our Graphics and Motion Services breathe life into your brand’s visual identity. Let us help you tell your story with creativity and impact.",
-    imageOne: "/images/par6.jpg",
-    imageTwo: "/images/navPtwo.jpg",
+    imageOne: "/images/motion_1.png",
+    imageTwo: "/images/motion_2.png",
   };
   const listItemForService = [
     "Motion Design Specialists",

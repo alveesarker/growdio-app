@@ -20,8 +20,8 @@ const page = () => {
     namee: "Video Editing",
     paragraphOne: "We offer expert video editing services that bring your vision to life. Our team meticulously refines your raw footage, adding a touch of creativity and precision to produce visually stunning videos. From cutting and assembling clips to enhancing audio, incorporating transitions, and adding special effects, we ensure every element aligns perfectly with your message",
     paragraphTwo: "With a focus on quality and detail, we ensure your final product not only meets but exceeds your expectations, helping you achieve a professional and polished look.",
-    imageOne: "/images/par9.jpg",
-    imageTwo: "/images/navPtwo.jpg"
+    imageOne: "/images/videoe_1.jpg",
+    imageTwo: "/images/videoe_2.jpg"
   }
   const listItemForService = [
     "Professional Video Editing",

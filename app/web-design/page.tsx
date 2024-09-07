@@ -20,8 +20,8 @@ const page = () => {
     namee: "Web Design",
     paragraphOne: "Transform your online presence with Growdio’s web design expertise. We create visually stunning and highly functional websites tailored to your brand, ensuring a memorable user experience that stands out and drives business growth.",
     paragraphTwo: "At Growdio, our web design services deliver innovative and user-centric websites that capture your brand's essence.",
-    imageOne: "/images/par5.jpg",
-    imageTwo: "/images/navPtwo.jpg"
+    imageOne: "/images/webd_1.jpg",
+    imageTwo: "/images/webd_2.jpg"
   }
   const listItemForService = ["Creative Design Experts", "5+ Years of Experience", "40+ Satisfied Clients", "Comprehensive Creative Design Services", "Innovative & Tailored Solutions", "User-Centric Design Approach", "Focus on Brand Consistency", "Transparent Processes", "Data Protection & Confidentiality", "15/7 Dedicated Support"]
 

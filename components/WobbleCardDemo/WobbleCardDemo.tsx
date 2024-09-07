@@ -27,7 +27,7 @@ export function WobbleCardDemo() {
           Anik Sadik Santo
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio voluptate cupiditate quia architecto quis consequuntur non accusamus illo aspernatur.
+        Hey, I’m Anik, the CEO of Growdio and a graphic designer. Driven by a love for visual communication and forward-thinking strategies, I guide Growdio in delivering flexible and impactful solutions for our clients.
         </p>
       </WobbleCard>
 

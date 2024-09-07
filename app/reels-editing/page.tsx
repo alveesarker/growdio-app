@@ -17,8 +17,8 @@ const page = () => {
     namee: "Reels Editing",
     paragraphOne: "Unleash the full potential of your video content with Growdio's creative reels editing services. Our skilled editors take your footage and craft it into visually stunning reels that resonate with your audience. From syncing clips to the perfect soundtrack to adding engaging visual effects and seamless transitions, we ensure your reels are both captivating and share-worthy.",
     paragraphTwo: "At Growdio, we transform your raw footage into compelling reels that captivate and engage. Our reels editing service focuses on creating dynamic, polished videos that stand out on social media.",
-    imageOne: "/images/par10.jpg",
-    imageTwo: "/images/navPtwo.jpg"
+    imageOne: "/images/videoe_1.jpg",
+    imageTwo: "/images/videoe_2.jpg"
   }
   const listItemForService = [
     "Reels Editing Experts",

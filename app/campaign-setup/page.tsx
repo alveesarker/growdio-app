@@ -17,8 +17,8 @@ const page = () => {
     namee: "Campaign Setup",
     paragraphOne: "At Growdio, our Campaign Setup Services team excels in crafting strategic and impactful campaigns for forward-thinking brands. We stay ahead of the curve by utilizing the latest tools and frameworks to optimize campaign effectiveness. Understanding the crucial role of well-executed campaigns in achieving your business goals, we are dedicated to delivering solutions that drive results and elevate your brand’s presence.",
     paragraphTwo: "We focus on leveraging industry best practices and our own creative expertise to ensure every campaign setup is strategically crafted for seamless execution.",
-    imageOne: "/images/par3.jpg",
-    imageTwo: "/images/navPtwo.jpg"
+    imageOne: "/images/campaign_1.jpg",
+    imageTwo: "/images/campaign_2.jpg"
   };
 
   const listItemForService = [
