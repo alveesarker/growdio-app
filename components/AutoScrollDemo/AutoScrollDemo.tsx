@@ -5,62 +5,62 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 const people = [
     {
 
-        image: '/images/logot.png',
-        altText: 'alvee5',
+        image: '/images/gogna.jpg',
+        altText: 'logo5',
     },
     {
 
         image:
-            '/images/logot.png',
-        altText: 'alvee4',
+            '/images/oraimologo.jpg',
+        altText: 'logo4',
     },
     {
 
         image:
-            '/images/logot.png',
-        altText: 'alvee3',
+            '/images/leafs.jpg',
+        altText: 'logo3',
     },
     {
 
         image:
-            '/images/logot.png',
-        altText: 'alvee2',
+            '/images/m4.jpg',
+        altText: 'logo2',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee1',
+            "/images/normies.jpg",
+        altText: 'logo1',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee',
+            "/images/zclub.jpg",
+        altText: 'logo',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee',
+            "/images/hunter.jpg",
+        altText: 'logo20',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee',
+            "/images/gogna.jpg",
+        altText: 'logo30',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee',
+            "/images/oraimologo.jpg",
+        altText: 'logo40',
     },
     {
 
         image:
-            "/images/logot.png",
-        altText: 'alvee',
+            "/images/leafs.jpg",
+        altText: 'logo50',
     },
 ];
 

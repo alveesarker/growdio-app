@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-10 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
           start && "animate-scroll",
         )}
         style={{
@@ -114,8 +114,9 @@ export const InfiniteMovingCards = ({
               alt={''}
               className="w-full object-cover"
               style={{
-                width: '150px',
+                width: '80px',
                 opacity: "0.7",
+                borderRadius: "50%",
               }}
             />
           </li>
