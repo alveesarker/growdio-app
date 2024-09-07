@@ -31,7 +31,7 @@ const Team = () => {
         {
             name: "Yesin Arafat",
             post: "Co-Founder",
-            image: "/images/.jpg",
+            image: "/images/yeasin.jpg",
             facebook: "https://www.facebook.com/designeryeasinarafat0",
             linkedin: "https://www.linkedin.com/in/yeasin-arafat-designer/",
             behance: "https://www.behance.net/designeryeasinar"

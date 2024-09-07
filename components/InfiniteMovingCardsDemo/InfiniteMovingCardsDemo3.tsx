@@ -20,37 +20,51 @@ export function InfiniteMovingCardsDemo3() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg",
+      "Growdio has been amazing for our clothing brand. Their designs, video edits, and campaign management helped bring our vision to life.",
+    name: "LEAFS",
+    title: "Clothing Brand",
+    image: "/images/leafs.jpg",
   },
   {
     quote:
-      "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg",
+      "Growdio’s creative team brought our brand to life with their unique designs and seamless campaign execution. They exceeded our expectations at every step!",
+    name: "GOGNA",
+    title: "Schoolwear",
+    image: "/images/gogna.jpg",
   },
   {
     quote:
-      "It was the best of times, it was the worge of foolist, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-    image: "/images/alveesarker.jpg",
+      "We partnered with Growdio for our business, and their work has been exceptional. They crafted a website and managed our digital campaigns nicely",
+    name: "M4 AUTOS ",
+    title: "Vehicle Importer",
+    image: "/images/m4.jpg",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-    image: "/images/alveesarker.jpg",
+      "Growdio helped take our esports organization to the next level. From dynamic visuals to engaging content, they delivered every time.",
+    name: "Dead Of Hunter",
+    title: "Esport",
+    image: "/images/hunter.jpg",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-    image: "/images/alveesarker.jpg",
+      "Working with Growdio has been a great experience for Oraimo. Their team brought innovative ideas to our campaigns, showcasing our smart accessories.",
+    name: "Oraimo",
+    title: "Accessories Brand",
+    image: "/images/oraimologo.jpg",
+  },
+  {
+    quote:
+      "Growdio elevated Zclub's with cutting-edge designs and content. Their expertise in the esports industry made our partnership seamless.",
+    name: "Z CLUB",
+    title: "Esport",
+    image: "/images/zclub.jpg",
+  },
+  {
+    quote:
+      "Growdio played a key role in boosting Normies Esports' presence. Their creative team delivered sharp designs and engaging content.",
+    name: "Normies",
+    title: "Esport",
+    image: "/images/normies.jpg",
   },
 ];
