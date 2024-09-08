@@ -22,8 +22,8 @@ const page = () => {
     namee: "Creative Design",
     paragraphOne: "Elevate your brand with our exceptional Creative Design services. Our innovative design solutions are tailored to make your brand stand out and resonate with your audience. From eye-catching logos to cohesive branding elements, we create designs that not only capture attention but also convey your brand's unique story and identity. Let us bring your vision to life with creativity that leaves a lasting impact.",
     paragraphTwo: "At Growdio, our Creative Design services breathe life into your brand's visual identity. Let us help you tell your story with creativity.",
-    imageOne: "/images/creative_2.jpg",
-    imageTwo: "/images/creative_1.jpg"
+    imageOne: "/images/creative_1.jpg",
+    imageTwo: "/images/creative_2.jpg",
   }
   const listItemForService = ["Creative Design Experts", "5+ Years of Experience", "40+ Satisfied Clients", "Comprehensive Creative Design Services", "Innovative & Tailored Solutions", "User-Centric Design Approach", "Focus on Brand Consistency", "Transparent Processes", "Data Protection & Confidentiality", "15/7 Dedicated Support"]
 

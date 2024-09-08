@@ -19,8 +19,8 @@ const page = () => {
       "We craft and curate content that keeps your audience engaged and your brand top-of-mind. From strategic planning to consistent updates, we manage every aspect of your pages to ensure they reflect your brand’s story and connect with your audience. Let us handle the details, so your brand can shine and leave a lasting impression.",
     paragraphTwo:
       "At Growdio, our Page Management services ensure your brand’s online presence is consistent, engaging, and impactful.",
-    imageOne: "/images/pagem_1.jpg",
-    imageTwo: "/images/pagem_2.jpg",
+    imageOne: "/images/pagem_1.jpeg",
+    imageTwo: "/images/pagem_2.jpeg",
   };
   const listItemForService = [
     "Page Management Specialists",
