@@ -128,9 +128,7 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <OurServices />
-      <div className='mt-40'>
-        <ProductDemo />
-      </div>
+      
       <div className='mt-20'>
         <FloatingDockDemo links={links} />
       </div>

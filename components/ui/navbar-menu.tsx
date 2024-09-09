@@ -53,7 +53,7 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && (
-            <div className="absolute left-1/2 transform -translate-x-1/2 pt-4 mt-3">
+            <div className={`absolute left-1/2 transform -translate-x-1/2 pt-4 mt-3 ${item === 'Services' && 'ml-12'}`}>
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
@@ -103,19 +103,19 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2 ">
       <Image
         src={src}
         width={140}
         height={70}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md shadow-2xl w-[80px] h-[50px] lg:w-[140px] lg:h-[70px]"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-white dark:text-white">
+        <h4 className="text-sm lg:text-xl font-bold mb-1 text-white dark:text-white">
           {title}
         </h4>
-        <p className="text-neutral-300 text-sm max-w-[10rem] dark:text-neutral-300">
+        <p className="text-neutral-300 text-[11px] lg:text-sm max-w-[10rem] dark:text-neutral-300">
           {description}
         </p>
       </div>

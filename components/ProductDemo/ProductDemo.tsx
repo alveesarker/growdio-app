@@ -6,47 +6,47 @@ import { DirectionAwareHoverDemo } from '../DirectionAwareHoverDemo/DirectionAwa
 
 export const products = [
     {
-        title: "Moonbeam",
-        text: "hello",
-        linkUrl: '',
+        title: "Creative Design",
+        text: "GROWDIO",
+        linkUrl: '/creative-design',
         image:
-            "/images/latest-post1.png",
+            "/images/qcds.jpeg",
     },
     {
-        title: "Cursor",
-        text: "hello",
-        linkUrl: '',
+        title: "Digital Marketing",
+        text: "GROWDIO",
+        linkUrl: '/digital-marketing',
         image:
-            "/images/latest-post2.png",
+            "/images/qdms.jpeg",
     },
     {
-        title: "Rogue",
-        text: "hello",
-        linkUrl: '',
+        title: "Video Editing",
+        text: "GROWDIO",
+        linkUrl: '/video-editing',
         image:
-            "/images/latest-post3.png",
+            "/images/qves.jpeg",
     },
 
     {
-        title: "Editorially",
-        text: "hello",
-        linkUrl: '',
+        title: "Web Design",
+        text: "GROWDIO",
+        linkUrl: '/web-design',
         image:
-            "/images/latest-post4.png",
+            "/images/qwdis.jpeg",
     },
     {
-        title: "Editrix AI",
-        text: "hello",
-        linkUrl: '',
+        title: "Web Development",
+        text: "GROWDIO",
+        linkUrl: '/web development',
         image:
-            "/images/latest-post5.png",
+            "/images/qwdvs.jpeg",
     },
     {
-        title: "Pixel Perfect",
+        title: "Photography",
         text: "hello",
-        linkUrl: '',
+        linkUrl: '/photography',
         image:
-            "/images/latest-post6.png",
+            "/images/qps.jpeg",
     }
 ];
 
@@ -56,7 +56,7 @@ const ProductDemo = () => {
         <div>
             <div className='pl-4 pr-4'>
                 <h2 className="roboto text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
-                    The outcomes are self-evident
+                Growdio's Full-Service Digital Solutions
                 </h2>
                 <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
                     We deliver reliable, scalable, and customizable creative solutions for your brand. Whether you need eye-catching designs, engaging promotional content, or comprehensive campaign management, Growdio has you covered.
