@@ -13,7 +13,7 @@ const Value = () => {
             <div className='w-[100%] flex justify-start lg:justify-end lg:w-[50%]'>
                 <img
                     className='w-full h-auto md:h-[350px] lg:h-[400px] rounded-2xl object-cover'
-                    src="/images/valueimg.jpg"
+                    src="/images/valueimg.jpeg"
                     alt="Core Values"
                 />
             </div>
