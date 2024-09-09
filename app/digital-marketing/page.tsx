@@ -91,8 +91,8 @@ const page = () => {
           icon: (
             <Image
               src="/images/gmaillogo.png"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
               alt="gmail"
               className="rounded-full"
             />
@@ -103,9 +103,9 @@ const page = () => {
           title: "Google Analytics",
           icon: (
             <Image
-              src="/images/googlelogo.webp"
-              width={40}
-              height={40}
+              src="/images/googlelogo.jpg"
+              width={20}
+              height={20}
               alt="Google Analytics"
               className=""
             />
