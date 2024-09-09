@@ -29,12 +29,8 @@ function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/digital-marketing">Digital Marketing</HoveredLink>
               <HoveredLink href="/creative-design">Creative Design</HoveredLink>
               <HoveredLink href="/web-development">Web Development</HoveredLink>
-              <HoveredLink href="/page-management">Page Management</HoveredLink>
-              <HoveredLink href="/campaign-setup">Campaign Setup</HoveredLink>
               <HoveredLink href="/video-editing">Video Editing</HoveredLink>
               <HoveredLink href="/web-design">Web Design</HoveredLink>
-              <HoveredLink href="/motion-design">Motion Design</HoveredLink>
-              <HoveredLink href="/reels-editing">Reels Editing</HoveredLink>
               <HoveredLink href="/photography">Photography</HoveredLink>
             </div>
           </MenuItem>
