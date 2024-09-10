@@ -9,7 +9,7 @@ const FullLayout = () => {
                     Why would you <br /> want to work with us?
                 </h2>
                 <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                    Welcome to MailJet, the best transactional email service on the web.
+                    Welcome to Growdio, the best digital agency.
                     We provide reliable, scalable, and customizable email solutions for
                     your business.
                 </p>

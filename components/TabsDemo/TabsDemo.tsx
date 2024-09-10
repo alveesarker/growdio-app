@@ -6,52 +6,32 @@ import { Tabs } from "../ui/tabs";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "Collab1",
+      value: "",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1b0028] to-[#5a022b]">
-          <p>Product Tab</p>
-          <DummyContent image={"/images/par1.jpg"} />
+          <p>M4 AUTOS</p>
+          <DummyContent image={"/images/collab.jpg"} />
         </div>
       ),
     },
     {
-      title: "Services",
+      title: "Collab2",
       value: "services",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1b0028] to-[#5a022b]">
-          <p>Services tab</p>
-          <DummyContent image={"/images/par2.jpg"} />
+          <p>LEAFS</p>
+          <DummyContent image={"/images/collab1.jpg"} />
         </div>
       ),
     },
     {
-      title: "Playground",
+      title: "Experts",
       value: "playground",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1b0028] to-[#5a022b]">
-          <p>Playground tab</p>
-          <DummyContent image={"/images/par3.jpg"} />
-        </div>
-      ),
-    },
-    {
-      title: "Content",
-      value: "content",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1b0028] to-[#5a022b]">
-          <p>Content tab</p>
-          <DummyContent image={"/images/par4.jpg"} />
-        </div>
-      ),
-    },
-    {
-      title: "Random",
-      value: "random",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1b0028] to-[#5a022b]">
-          <p>Random tab</p>
-          <DummyContent image={"/images/par5.jpg"} />
+          <p>New Experts</p>
+          <DummyContent image={"/images/newbies.jpg"} />
         </div>
       ),
     },
@@ -71,7 +51,7 @@ const DummyContent = ({ image }) => {
       alt="dummy image"
       width="1000"
       height="1000"
-      className="object-cover object-left-top h-[85%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+      className="object-cover h-[85%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] sm:w-[55%] rounded-xl mx-auto"
     />
   );
 };

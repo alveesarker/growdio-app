@@ -73,6 +73,12 @@ const data = [
     content: <DummyContent image={'/images/habibraj.jpg'} desc={"Meet Raj Habib , an unstoppable force in the realm of digital marketing and a visionary with the ability to transform ideas into reality. As a fervent digital marketer, Raj Habib is dedicated to seizing attention and crafting unforgettable experiences that reverberate in the fast-paced world of online engagement. With a forward-thinking perspective, Raj Habib harnesses the power of digital platforms to showcase breathtaking moments and captivate audiences. Welcome to the future we're building together! 💚"} />,
   },
   {
+    category: "Human Resources",
+    title: "Sabbir Ahmed Probal",
+    src: "/images/sabbiri.jpg",
+    content: <DummyContent image={'/images/sabbiri.jpg'} desc={"Meet @Sabbir Ahmed Probal, a visionary leader in the Department of HR at Growdio. With a dedication to fostering a thriving workplace culture, He brings a unique perspective to the intersection of HR and organizational growth. Passionate about creating meaningful connections and supporting the professional journey of each team member, He is committed to building a workplace where talent flourishes. Welcome to the future we're constructing together. 💚"} />,
+  },
+  {
     category: "SEO Expert",
     title: "Kamrul Hasan Samrat",
     src: "/images/kamal.jpg",

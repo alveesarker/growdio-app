@@ -1,4 +1,5 @@
 import { AppleCardsCarouselDemo } from '@/components/AppleCardsCarouselDemo/AppleCardsCarouselDemo'
+import { FocusCardsDemo } from '@/components/FocusCardsDemo/FocusCardsDemo'
 import FullLayout from '@/components/FullLayout/FullLayout'
 import { HeroScrollDemo } from '@/components/HeroScrollDemo/HeroScrollDemo'
 import ProductDemo from '@/components/ProductDemo/ProductDemo'
@@ -10,6 +11,7 @@ const page = () => {
   return (
     <div>
       <HeroScrollDemo />
+      <FocusCardsDemo/>
       <AppleCardsCarouselDemo />
       <FullLayout />
       <TabsDemo />
