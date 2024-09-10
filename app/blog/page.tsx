@@ -10,7 +10,6 @@ const page = () => {
   return (
     <div>
       <HeroScrollDemo />
-      <ProductDemo />
       <AppleCardsCarouselDemo />
       <FullLayout />
       <TabsDemo />

@@ -25,6 +25,21 @@ const testimonials = [
     title: "Clothing Brand",
     image: "/images/leafs.jpg",
   },
+
+  {
+    quote:
+      "On time and perfect revisions, delivered for our company now a year in a row!",
+    name: "mizananr | fiverr",
+    title: "United States",
+    image: "/images/profilepic.png",
+  },
+
+  {
+    quote: "I'm always impressed with his work and attention to detail.",
+    name: "Idominick93",
+    title: "United States",
+    image: "/images/profilepic.png",
+  },
   {
     quote:
       "Growdio’s creative team brought our brand to life with their unique designs and seamless campaign execution. They exceeded our expectations at every step!",
@@ -46,6 +61,13 @@ const testimonials = [
     title: "Esport",
     image: "/images/hunter.jpg",
   },
+
+  {
+    quote: "Perfect. Fast, very detailed.",
+    name: "glenndill",
+    title: "Belgium",
+    image: "/images/profilepic.png",
+  },
   {
     quote:
       "Working with Growdio has been a great experience for Oraimo. Their team brought innovative ideas to our campaigns, showcasing our smart accessories.",
@@ -60,11 +82,45 @@ const testimonials = [
     title: "Esport",
     image: "/images/zclub.jpg",
   },
+
+  {
+    quote:
+      "Clear communication, and was able to understand precisely the needs of the project.",
+    name: "Justin Herde | Fiverr",
+    title: "United States",
+    image: "/images/profilepic.png",
+  },
   {
     quote:
       "Growdio played a key role in boosting Normies Esports' presence. Their creative team delivered sharp designs and engaging content.",
     name: "Normies",
     title: "Esport",
     image: "/images/normies.jpg",
+  },
+  {
+    quote:
+      "Always does a great job. Very quick and responsive with designs. Very creative, Great to work with.",
+    name: "Duranfivr | Fiverr",
+    title: "United States",
+    image: "/images/profilepic.png",
+  },
+  {
+    quote:
+      "The price-performance ratio is top. They exceeded my expectations. The delivery time was adhere to and communication was uncomplicated.",
+    name: "Devid Grzesik | Fiverr",
+    title: "Germany",
+    image: "/images/profilepic.png",
+  },
+  {
+    quote: "Achieved their deadline as I asked.",
+    name: "muda55ar",
+    title: "United States",
+    image: "/images/profilepic.png",
+  },
+  {
+    quote: "Easy to work with and very creative. Did exactly what I asked for.",
+    name: "mike1ch",
+    title: "United States",
+    image: "/images/profilepic.png",
   },
 ];

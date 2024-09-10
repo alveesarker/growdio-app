@@ -40,13 +40,11 @@ const Footer = () => {
                     </div>
                     <div className='md:w-[20%] w-full flex flex-col items-start gap-2'>
                         <h3 className='text-white mb-3 text-[20px] font-semibold'>Resources</h3>
+                        <Link href='/digital-marketing' className='text-neutral-300 hover:text-white transition-all'>Digital Marketing</Link>
                         <Link href='/creative-design' className='text-neutral-300 hover:text-white transition-all'>Creative Design</Link>
-                        <Link href='/page-management' className='text-neutral-300 hover:text-white transition-all'>Page Management</Link>
-                        <Link href='/campaign-setup' className='text-neutral-300 hover:text-white transition-all'>Campaign Setup</Link>
+                        <Link href='/web-development' className='text-neutral-300 hover:text-white transition-all'>Web Development</Link>
                         <Link href='/video-editing' className='text-neutral-300 hover:text-white transition-all'>Video Editing</Link>
                         <Link href='/web-design' className='text-neutral-300 hover:text-white transition-all'>Web Desing</Link>
-                        <Link href='/motion-design' className='text-neutral-300 hover:text-white transition-all'>Motion Design</Link>
-                        <Link href='/reels-editing' className='text-neutral-300 hover:text-white transition-all'>Reels Editing</Link>
                         <Link href='/photography' className='text-neutral-300 hover:text-white transition-all'>Photography</Link>
                     </div>
                     <div className='md:w-[20%] w-full flex flex-col items-start gap-2'>

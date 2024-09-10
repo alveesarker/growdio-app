@@ -48,7 +48,7 @@ function Navbar({ className }: { className?: string }) {
                 title="Creative Design"
                 href="/creative-design"
                 src="/images/creadesnav.jpeg"
-                description="Crafting visually captivating and engaging designs."
+                description="Crafting visually engaging designs."
               />
               <ProductItem
                 title="Web Development"

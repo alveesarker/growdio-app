@@ -106,16 +106,16 @@ export const ProductItem = ({
     <Link href={href} className="flex space-x-2 ">
       <Image
         src={src}
-        width={140}
+        width={130}
         height={70}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl w-[80px] h-[50px] lg:w-[140px] lg:h-[70px]"
+        className="flex-shrink-0 rounded-md shadow-2xl w-[80px] h-[50px] lg:w-[130px] lg:h-[70px]"
       />
       <div>
-        <h4 className="text-sm lg:text-xl font-bold mb-1 text-white dark:text-white">
+        <h4 className="text-sm lg:text-xl font-bold mb-0 lg:mb-1 text-white dark:text-white">
           {title}
         </h4>
-        <p className="text-neutral-300 text-[11px] lg:text-sm max-w-[10rem] dark:text-neutral-300">
+        <p className="text-neutral-300 text-xs lg:text-[14px] max-w-[10rem] dark:text-neutral-300">
           {description}
         </p>
       </div>
