@@ -23,10 +23,10 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-black">
         <img src="/images/anik-sadik.jpg" className="h-20 rounded-full mb-6" alt="" />
-        <h2 className="max-w-80 text-left text-[25px] sm:text-[30px] text-base font-semibold tracking-[-0.015em] text-white">
+        <h2 className="max-w-80 text-left text-[26px] sm:text-[30px] text-base font-semibold tracking-[-0.015em] text-white">
           Anik Sadik Santo
         </h2>
-        <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+        <p className="mt-4 max-w-[26rem] text-left  text-sm/6 text-neutral-200">
         Hey, I’m Anik, the CEO of Growdio and a graphic designer. Driven by a love for visual communication and forward-thinking strategies, I guide Growdio in delivering flexible and impactful solutions for our clients.
         </p>
       </WobbleCard>

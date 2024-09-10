@@ -9,6 +9,7 @@ import { PlaceholdersAndVanishInputDemo } from '@/components/PlaceholdersAndVani
 import ProductDemo from '@/components/ProductDemo/ProductDemo'
 import Counting from "@/components/Counting/Counting"
 import React from 'react'
+import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 
 const HomePage = () => {
   return (
@@ -17,12 +18,13 @@ const HomePage = () => {
       <InfiniteMovingCardsDemo />
       {/* <DirectionAwareHoverDemo/> */}
       <Counting/>
-      <HeroParallaxDemo />
+      <HowHelp />
       <PlaceholdersAndVanishInputDemo />
       <ProductDemo />
-      <HowHelp />
       <Compare />
       <ClientReview />
+      <HeroParallaxDemo />
+      <WobbleCardDemo/>
     </div>
   )
 }

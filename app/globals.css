@@ -4,13 +4,19 @@
 
 @font-face {
   font-family: 'GeomatrixLight';
-  src: url('/fonts/GeomatrixLight-9Yrm2.ttf') format('truetype');
+  src: url('/fonts/Friends-Normal.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GeomatrixBold';
-  src: url('/fonts/GeomatrixBold-6YBZ1.ttf') format('truetype');
+  src: url('/fonts/Friends-SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calvino';
+  src: url('/fonts/Calvino-Light-Italic-trial.ttf') format('truetype');
   font-style: normal;
 }
 
@@ -23,6 +29,10 @@ body {
 
 .geomatrixBold{
   font-family: 'GeomatrixBold', sans-serif;
+}
+
+.calvino{
+  font-family: 'Calvino', sans-serif;
 }
 
 

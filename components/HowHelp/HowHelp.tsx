@@ -3,7 +3,7 @@ import { StickyScrollRevealDemo } from '../StickyScrollRevealDemo/StickyScrollRe
 
 const HowHelp = () => {
     return (
-        <div className='mt-60'>
+        <div className='mt-40'>
             <div className='pl-4 pr-4'>
                 <h2 className="text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     How can we help you?

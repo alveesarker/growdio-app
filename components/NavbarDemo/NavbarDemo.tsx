@@ -22,7 +22,10 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-[60]",
+        className
+      )}
     >
       <Menu setActive={setActive}>
         <div>
@@ -36,8 +39,10 @@ function Navbar({ className }: { className?: string }) {
         </div>
         <div className="flex gap-5 pt-[2px]">
           <MenuItem setActive={setActive} active={active} item="Services">
-            <div className="text-sm grid grid-cols-1 md:grid-cols-2 gap-10 p-4 relative
-            ">
+            <div
+              className="text-sm grid grid-cols-1 md:grid-cols-2 gap-10 p-4 relative
+            "
+            >
               <ProductItem
                 title="Digital marketing"
                 href="/digital-marketing"
@@ -76,13 +81,21 @@ function Navbar({ className }: { className?: string }) {
               />
             </div>
           </MenuItem>
-          <NonDropdownItem href="/about-us" label="About Us" />
-          <MenuItem setActive={setActive} active={active} item="Resources">
-            <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/blog">Blog</HoveredLink>
-              <HoveredLink href="/contact-us">Contact Us</HoveredLink>
-            </div>
-          </MenuItem>
+          <NonDropdownItem href="/about-us" label="About" />
+          <div className="sm:block hidden">
+            <NonDropdownItem href="/blog" label="Blog" />
+          </div>
+          <div className="sm:block hidden">
+            <NonDropdownItem href="/contact-us" label="Contact Us" />
+          </div>
+          <div className="sm:hidden block">
+            <MenuItem setActive={setActive} active={active} item="Resources">
+              <div className="flex flex-col space-y-4 text-sm">
+                <HoveredLink href="/blog">Blog</HoveredLink>
+                <HoveredLink href="/contact-us">Contact Us</HoveredLink>
+              </div>
+            </MenuItem>
+          </div>
         </div>
         <div></div>
       </Menu>

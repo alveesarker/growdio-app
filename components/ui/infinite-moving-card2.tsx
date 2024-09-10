@@ -91,7 +91,7 @@ export const InfiniteMovingCard2 = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[300px] h-[200px] relative rounded-3xl flex-shrink-0 p-5 md:w-[300px] "
+            className="w-[300px] h-[220px] relative rounded-3xl flex-shrink-0 p-5 md:w-[300px] "
             style={{
               border: "0.5px solid rgba(123, 123, 123, 0.352)"
             }}

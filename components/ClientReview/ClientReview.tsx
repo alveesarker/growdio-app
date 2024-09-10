@@ -17,7 +17,6 @@ const ClientReview = () => {
             <div className='relative w-full'>
                 <InfiniteMovingCardsDemo3 />
             </div>
-            <WobbleCardDemo/>
         </div>
     )
 }

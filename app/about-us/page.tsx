@@ -21,7 +21,7 @@ const About = () => {
         <OurServices />
         <SparklesPreview />
         <Compare />
-        {/* <FindUs /> */}
+        <FindUs />
         {/* <WeAccept/> */}
         <GlobeDemo />
         <WobbleCardDemo />
