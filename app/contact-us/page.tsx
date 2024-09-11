@@ -1,4 +1,5 @@
 import BackgroundContact from '@/components/BackgroundContact/BackgroundContact'
+import Collaborate from '@/components/Collaborate/Collaborate'
 import FindUs from '@/components/FindUs/FindUs'
 import { LinkPreviewDemo } from '@/components/LinkPreviewDemo/LinkPreviewDemo'
 import SendMail from '@/components/SendMail/SendMail'
@@ -10,6 +11,7 @@ const page = () => {
     <main>
       <BackgroundContact />
       <SendMail />
+      <Collaborate/>
       <FindUs />
       <LinkPreviewDemo />
       <WobbleCardDemo />

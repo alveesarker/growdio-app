@@ -20,6 +20,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'friendsbold';
+  src: url('/fonts/Friends-UltraBold.ttf') format('truetype');
+  font-style: normal;
+}
+
 
 
 body {
@@ -33,6 +39,14 @@ body {
 
 .calvino{
   font-family: 'Calvino', sans-serif;
+}
+
+.friendsbold{
+  font-family: 'friendsbold', sans-serif;
+}
+.lineh{
+  line-height: 65px;
+  letter-spacing: 2px;
 }
 
 
@@ -69,5 +83,10 @@ body {
 @media (max-width:800px) {
   .containerForSpot {
     flex-direction: column;
+  }
+}
+@media (max-width:768px) {
+  .lineh{
+    line-height: 40px;
   }
 }

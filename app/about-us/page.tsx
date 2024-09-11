@@ -10,6 +10,7 @@ import React from 'react'
 import { GlobeDemo } from '@/components/GlobeDemo/GlobeDemo'
 import { TextGenerateEffectDemo } from '@/components/TextGenerateEffectDemo/TextGenerateEffectDemo'
 import Value from '@/components/Value/Value'
+import WorkedWith from '@/components/WorkedWith/WorkedWith'
 
 const About = () => {
   return (
@@ -21,6 +22,7 @@ const About = () => {
         <OurServices />
         <SparklesPreview />
         <Compare />
+        <WorkedWith/>
         <FindUs />
         {/* <WeAccept/> */}
         <GlobeDemo />
