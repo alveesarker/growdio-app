@@ -1,5 +1,6 @@
 import React from 'react'
 import { ThreeDCardDemo } from '../ThreeDCardDemo/ThreeDCardDemo'
+import { ExpandableCardDemo } from '../ExpandableCardDemo/ExpandableCardDemo'
 
 const Team = () => {
 
@@ -97,11 +98,12 @@ const Team = () => {
                     dedicated to ensuring that your brand receives the recognition it deserves.
                 </p>
             </div>
-            <div className='flex items-center justify-center gap-10 w-[80%] flex-wrap '>
+            {/* <div className='flex items-center justify-center gap-10 w-[80%] flex-wrap '>
                 {team.map((item, inx) => (
                     <ThreeDCardDemo team={item} key={inx} />
                 ))}
-            </div>
+            </div> */}
+            <ExpandableCardDemo/>
         </div>
     )
 }

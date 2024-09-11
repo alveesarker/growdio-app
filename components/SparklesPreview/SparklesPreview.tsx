@@ -6,7 +6,7 @@ import Team from "../Team/Team";
 export function SparklesPreview() {
   return (
     <div className="mt-16 h-auto relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="w-full h-full absolute inset-0">
+      {/* <div className="w-full h-full absolute inset-0">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
@@ -16,7 +16,7 @@ export function SparklesPreview() {
           className="w-full h-full"
           particleColor="#FFFFFF"
         />
-      </div>
+      </div> */}
       <Team />
     </div>
   );
