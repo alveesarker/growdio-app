@@ -19,7 +19,7 @@ export const NonDropdownItem = ({ href, label }: { href: string; label: string }
   return (
     <Link
       href={href}
-      className="text-white hover:opacity-90 dark:text-black"
+      className="text-white hover:opacity-90 dark:text-black text-[14px] sm:text-[16px]"
     >
       {label}
     </Link>
@@ -42,7 +42,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className=" cursor-pointer text-white hover:opacity-[0.9]  dark:text-black"
+        className=" cursor-pointer text-white hover:opacity-[0.9]  dark:text-black text-[14px] sm:text-[16px] "
       >
         {item}
       </motion.p>

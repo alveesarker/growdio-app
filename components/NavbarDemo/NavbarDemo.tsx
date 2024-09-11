@@ -81,7 +81,7 @@ function Navbar({ className }: { className?: string }) {
               />
             </div>
           </MenuItem>
-          <NonDropdownItem href="/about-us" label="About" />
+          <NonDropdownItem href="/about-us" label="About Us" />
           <div className="sm:block hidden">
             <NonDropdownItem href="/blog" label="Blog" />
           </div>
