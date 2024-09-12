@@ -17,7 +17,7 @@ const BackgroundContact = () => {
         </p>
         <Button />
         <p className="text-neutral-200 text-center text-[17px] font-bold">We'll get back to you within an hour. <br />
-        We're also happy to sign a NDA</p>
+          We're also happy to sign a NDA</p>
       </div>
     </div>
   );

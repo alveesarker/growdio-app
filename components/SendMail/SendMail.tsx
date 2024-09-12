@@ -9,7 +9,6 @@ const SendMail = () => {
                 <h2 className='text-white text-5xl geomatrixBold font-bold'>Let's work <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Together</h2>
             </div>
             <div className='flex items-center justify-center flex-col md:flex-row gap-20'>
-
                 <BackgroundGradientDemo />
                 <SignupFormDemo />
             </div>

@@ -17,14 +17,14 @@ const HomePage = () => {
       <GridBackgroundDemo />
       <InfiniteMovingCardsDemo />
       {/* <DirectionAwareHoverDemo/> */}
-      <Counting/>
+      <Counting />
       <HowHelp />
       <PlaceholdersAndVanishInputDemo />
       <ProductDemo />
       <Compare />
       <ClientReview />
       <HeroParallaxDemo />
-      <WobbleCardDemo/>
+      <WobbleCardDemo />
     </div>
   )
 }
