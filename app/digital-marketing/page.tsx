@@ -1,4 +1,5 @@
 import { GridBackgroundDemo } from "@/components/BackgroundServices/BackgroundServices";
+import ClientReview from "@/components/ClientReview/ClientReview";
 import ComprehensiveService from "@/components/ComprehensiveService/ComprehensiveService";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo/FloatingDockDemo";
 import { MacbookScrollDemo } from "@/components/MacbookScrollDemo/MacbookScrollDemo";
@@ -126,6 +127,7 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
+      <ClientReview/>
       <WobbleCardDemo />
     </main>
   );
