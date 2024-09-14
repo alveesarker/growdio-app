@@ -7,10 +7,37 @@ import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import Image from 'next/image'
 import React from 'react'
+import { FaCrown } from "react-icons/fa6";
+import { FaRegCommentDots } from "react-icons/fa";
+import { PiOfficeChairFill } from "react-icons/pi";
+import { GiMeteorImpact } from "react-icons/gi";
+
+
+
 
 
 
 const page = () => {
+
+  const usefulness = [
+    {
+      icon: <FaCrown />,
+      text: "Best Quality Animation"
+    },
+    {
+      icon: <FaRegCommentDots />,
+      text: "Visual Storytelling"
+    },
+    {
+      icon: <PiOfficeChairFill />,
+      text: "Artistic Presentation"
+    },
+    {
+      icon: <GiMeteorImpact />,
+      text: "Impactful Narratives"
+    },
+
+  ]
 
   const head = {
     fstLine: 'Transforming ',
@@ -128,20 +155,22 @@ const page = () => {
       ),
       href: "https://www.capcut.com/",
     },
-    
+
   ];
+
+  
 
 
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
-      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
+      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <WobbleCardDemo />
-      <ClientReview/>
+      <ClientReview />
     </main>
   )
 }

@@ -11,6 +11,7 @@ import { GlobeDemo } from '@/components/GlobeDemo/GlobeDemo'
 import { TextGenerateEffectDemo } from '@/components/TextGenerateEffectDemo/TextGenerateEffectDemo'
 import Value from '@/components/Value/Value'
 import WorkedWith from '@/components/WorkedWith/WorkedWith'
+import Uniqueness from '@/components/Uniqueness/Uniqueness'
 
 const About = () => {
   return (
@@ -19,10 +20,11 @@ const About = () => {
         <GridBackgroundDemo />
         <Value />
         <DiscoverWork />
-        <OurServices />
+        <Uniqueness />
+        {/* <OurServices /> */}
         <SparklesPreview />
         <Compare />
-        <WorkedWith/>
+        <WorkedWith />
         <FindUs />
         {/* <WeAccept/> */}
         <GlobeDemo />

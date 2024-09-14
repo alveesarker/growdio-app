@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../Button/Button';
-import Buttont from '../Button/Buttont';
 
 interface ServiceSystemProps {
     serviceSystem: {
@@ -10,13 +9,14 @@ interface ServiceSystemProps {
         imageOne: string;
         imageTwo: string;
     };
-    listItem: string[]; // specifying that listItem is an array of strings
+    listItem: string[];
+    usefulness: {
+        icon: any,
+        text: string;
+    }[];
 }
 
-//@ts-ignore
-const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem }) => {
-
-
+const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem, usefulness = [] }) => {
     return (
         <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between relative left-[50%] translate-x-[-50%] '>
             <div className='w-[100%] lg:w-[67%]'>
@@ -29,9 +29,28 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem }
                 <img className="w-full h-auto md:h-[350px] lg:h-[500px] rounded-3xl object-cover" src={serviceSystem.imageOne} alt="" />
 
                 <div className='mt-8'>
-                    <p className="text-neutral-400 mb-8 text-sm text-left relative z-10">
+                    <p className="text-neutral-400 mb-5 text-sm text-left relative z-10">
                         {serviceSystem.paragraphTwo}
                     </p>
+
+                    {/* Safeguard against undefined usefulness */}
+                    <div className='grid sm:grid-cols-2 grid-cols-1 sm:gap-x-28 gap-y-3 mb-5'>
+                        {usefulness.length > 0 ? (
+                            usefulness.map((item, idx) => (
+                                <div key={idx} className='flex gap-2 items-center'>
+                                    <div className='text-neutral-400 text-xl text-left relative z-10'>
+
+                                        {item.icon}
+                                    </div>
+                                    <p className='text-neutral-400 text-sm text-left relative z-10'>{item.text}</p>
+                                </div>
+                            ))
+                        ) : (
+                            <p className='text-neutral-400 text-sm text-left relative z-10'>
+                                No usefulness information available.
+                            </p>
+                        )}
+                    </div>
                     <Button />
                 </div>
             </div>

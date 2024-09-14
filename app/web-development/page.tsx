@@ -7,8 +7,35 @@ import ServiceSystem from "@/components/ServiceSystem/ServiceSystem";
 import { WobbleCardDemo } from "@/components/WobbleCardDemo/WobbleCardDemo";
 import Image from "next/image";
 import React from "react";
+import { LuScrollText } from "react-icons/lu";
+import { MdAccessTimeFilled } from "react-icons/md";
+import { TbUxCircle } from "react-icons/tb";
+import { BsBuilding } from "react-icons/bs";
+
 
 const page = () => {
+
+  const usefulness = [
+    {
+      icon: <LuScrollText />,
+      text: "Easy-to-maintain Sites"
+    },
+    {
+      icon: <MdAccessTimeFilled />,
+      text: "Fast Load Time"
+    },
+    {
+      icon: <TbUxCircle />,
+      text: "Easy User Experience"
+    },
+    {
+      icon: <BsBuilding />,
+      text: "User-friendly navigation"
+    },
+
+  ]
+
+
   const head = {
     fstLine: "Developing Modern",
     sndLine: "Robust and Scalable Web Applications",
@@ -153,12 +180,13 @@ const page = () => {
       <ServiceSystem
         serviceSystem={serviceSystem}
         listItem={listItemForService}
+        usefulness={usefulness}
       />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <WobbleCardDemo />
-      <ClientReview/>
+      <ClientReview />
     </main>
   );
 };

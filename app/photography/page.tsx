@@ -7,10 +7,35 @@ import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import Image from 'next/image'
 import React from 'react'
+import { MdCameraFront } from "react-icons/md";
+import { IoIosImages } from "react-icons/io";
+import { MdOutlineLightbulbCircle } from "react-icons/md";
+import { VscLightbulbSparkle } from "react-icons/vsc";
 
 
 
 const page = () => {
+
+  const usefulness = [
+    {
+      icon: <MdCameraFront />,
+      text: "Capturing Authentic Moments"
+    },
+    {
+      icon: <IoIosImages />,
+      text: "Attention to Detail"
+    },
+    {
+      icon: <MdOutlineLightbulbCircle />,
+      text: "Mastery of Light and Composition"
+    },
+    {
+      icon: <VscLightbulbSparkle />,
+      text: "Creative Vision and Storytelling"
+    },
+
+  ]
+
 
   const head = {
     fstLine: 'Crafting Visual Masterpieces for',
@@ -91,16 +116,17 @@ const page = () => {
   ];
 
 
+ 
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
-      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
+      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <WobbleCardDemo />
-      <ClientReview/>
+      <ClientReview />
     </main>
   )
 }

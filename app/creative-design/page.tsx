@@ -10,9 +10,32 @@ import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import Image from 'next/image'
 import React from 'react'
 
+import { IoBulbOutline } from "react-icons/io5";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { LiaHandshake } from "react-icons/lia";
+import { GiPuzzle } from "react-icons/gi";
 
 
 const page = () => {
+
+  const usefulness = [
+    {
+      icon: <IoBulbOutline />,
+      text: "Innovative Design Solutions"
+    },
+    {
+      icon: <BsGraphUpArrow />,
+      text: "Continuous Improvement"
+    },
+    {
+      icon: <LiaHandshake />,
+      text: "Commitment to Excellence"
+    },
+    {
+      icon: <GiPuzzle />,
+      text: "Creative Problem Solving"
+    },
+  ]
 
   const head = {
     fstLine: 'Crafting Visual Masterpieces for',
@@ -121,19 +144,20 @@ const page = () => {
   ];
 
 
+  
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
-      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} />
+      <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <OurServices />
-      
+
       <div className='mt-20'>
         <FloatingDockDemo links={links} />
       </div>
-      <ClientReview/>
+      <ClientReview />
       <WobbleCardDemo />
     </main>
   )
