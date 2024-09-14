@@ -160,6 +160,7 @@ const page = () => {
       title: "Anik Sadik Santo",
       des: "Founder",
       src: "/images/sadik.jpg",
+      service: "Video Editing",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/profile.php?id=100029429422473",
       linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",

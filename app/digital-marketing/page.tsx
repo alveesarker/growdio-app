@@ -150,6 +150,7 @@ const page = () => {
       description: "Ahmed Ullah Musa",
       title: "Ahmed Ullah Musa",
       des: "Chief Marketing Officer",
+      service: "Digital Marketing",
       src: "/images/musa.jpg",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/ahmad.musa.3154284?mibextid=ZbWKwL",

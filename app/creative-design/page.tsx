@@ -149,6 +149,7 @@ const page = () => {
         title: "Anik Sadik Santo",
         des: "Founder",
         src: "/images/sadik.jpg",
+        service: "Creative Design",
         ctaText: "Facebook",
         facebook: "https://www.facebook.com/profile.php?id=100029429422473",
         linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
@@ -193,8 +194,7 @@ const page = () => {
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
-      <OurServices />
-
+      {/* <OurServices /> */}
       <div className='mt-20'>
         <FloatingDockDemo links={links} />
       </div>

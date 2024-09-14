@@ -181,6 +181,7 @@ const page = () => {
       title: "Alvee Sarker",
       des: "Web Developer",
       src: "/images/alveesarker.jpg",
+      service: "Web Development",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/Alveesarker01",
       linkedin: "https://www.linkedin.com/in/alveesarker/",

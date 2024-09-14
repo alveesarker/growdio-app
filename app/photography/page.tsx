@@ -121,6 +121,7 @@ const page = () => {
       description: "K.M Sadman Arifin Sami",
       title: "K.M Sadman Arifin Sami",
       des: "Project Manager",
+      service: "Photography",
       src: "/images/sadman.jpg",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/sadmansamiii?mibextid=kFxxJD",
