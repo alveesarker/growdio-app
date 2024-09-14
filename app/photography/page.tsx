@@ -11,6 +11,7 @@ import { MdCameraFront } from "react-icons/md";
 import { IoIosImages } from "react-icons/io";
 import { MdOutlineLightbulbCircle } from "react-icons/md";
 import { VscLightbulbSparkle } from "react-icons/vsc";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 
@@ -115,8 +116,20 @@ const page = () => {
     },
   ];
 
+  const cards = [
+    {
+      description: "K.M Sadman Arifin Sami",
+      title: "K.M Sadman Arifin Sami",
+      des: "Project Manager",
+      src: "/images/sadman.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/sadmansamiii?mibextid=kFxxJD",
+      linkedin: "https://www.linkedin.com/in/k-m-sadman-arifin-sami-6ba64928a/",
+      instagram:
+        "https://www.instagram.com/sadmansphotogarage?igsh=OTlwcnUxb3ppdGt4",
+    },
+  ]
 
- 
 
   return (
     <main>
@@ -125,8 +138,9 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
-      <WobbleCardDemo />
       <ClientReview />
+      <LeadingGroup cards={cards} />
+      <WobbleCardDemo />
     </main>
   )
 }

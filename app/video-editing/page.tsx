@@ -11,10 +11,7 @@ import { FaCrown } from "react-icons/fa6";
 import { FaRegCommentDots } from "react-icons/fa";
 import { PiOfficeChairFill } from "react-icons/pi";
 import { GiMeteorImpact } from "react-icons/gi";
-
-
-
-
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 const page = () => {
@@ -157,7 +154,39 @@ const page = () => {
     },
 
   ];
-
+  const cards = [
+    {
+      description: "Anik Sadik Santo",
+      title: "Anik Sadik Santo",
+      des: "Founder",
+      src: "/images/sadik.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100029429422473",
+      linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
+      behance: "https://www.behance.net/shadikshanto",
+    },
+    {
+      description: "Sabbir Ahmed",
+      title: "Sabbir Ahmed",
+      des: "Co-Founde",
+      src: "/images/sabbir.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100004706238103",
+      linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
+      behance: "https://www.behance.net/sabbir69",
+    },
+  
+    {
+      description: "Mehedi Hasan Emon",
+      title: "Mehedi Hasan Emon",
+      des: "Founder & CEO",
+      src: "",
+      ctaText: "Facebook",
+      facebook: "",
+      linkedin: "",
+      behance: "",
+    },
+  ]
   
 
 
@@ -169,8 +198,9 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
-      <WobbleCardDemo />
       <ClientReview />
+      <LeadingGroup cards = {cards}/>
+      <WobbleCardDemo />
     </main>
   )
 }

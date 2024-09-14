@@ -11,6 +11,7 @@ import { LuScrollText } from "react-icons/lu";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { TbUxCircle } from "react-icons/tb";
 import { BsBuilding } from "react-icons/bs";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 const page = () => {
@@ -102,7 +103,59 @@ const page = () => {
       href: "https://www.figma.com/",
     },
   ];
-
+  const cards = [
+    {
+      description: "Anik Sadik Santo",
+      title: "Anik Sadik Santo",
+      des: "Founder",
+      src: "/images/sadik.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100029429422473",
+      linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
+      behance: "https://www.behance.net/shadikshanto",
+    },
+    {
+      description: "Sabbir Ahmed",
+      title: "Sabbir Ahmed",
+      des: "Co-Founde",
+      src: "/images/sabbir.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100004706238103",
+      linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
+      behance: "https://www.behance.net/sabbir69",
+    },
+  
+    {
+      description: "Mehedi Hasan Emon",
+      title: "Mehedi Hasan Emon",
+      des: "Founder & CEO",
+      src: "",
+      ctaText: "Facebook",
+      facebook: "",
+      linkedin: "",
+      behance: "",
+    },
+    {
+      description: "Yesin Arafat",
+      title: "Yesin Arafat",
+      des: "Co-Founder",
+      src: "/images/yeasin.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/designeryeasinarafat0",
+      linkedin: "https://www.linkedin.com/in/yeasin-arafat-designer/",
+      behance: "https://www.behance.net/designeryeasinar",
+    },
+    {
+      description: "Mohammad Mahfuzul Haque",
+      title: "Mohammad Mahfuzul Haque",
+      des: "Graphic Designer",
+      src: "/images/mahfuz.png",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/mahfuzulhaqu703/",
+      linkedin: "https://www.linkedin.com/in/mahfuzulhaqu703/",
+      behance: "https://www.behance.net/mahfuzfarabi",
+    },
+  ]
 
 
 
@@ -113,8 +166,9 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
-      <WobbleCardDemo />
       <ClientReview />
+      <LeadingGroup cards = {cards}/>
+      <WobbleCardDemo />
     </main>
   )
 }

@@ -11,6 +11,7 @@ import { LuScrollText } from "react-icons/lu";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { TbUxCircle } from "react-icons/tb";
 import { BsBuilding } from "react-icons/bs";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 const page = () => {
@@ -174,6 +175,18 @@ const page = () => {
     },
   ];
 
+  const cards = [
+    {
+      description: "Alvee Sarker",
+      title: "Alvee Sarker",
+      des: "Web Developer",
+      src: "/images/alveesarker.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/Alveesarker01",
+      linkedin: "https://www.linkedin.com/in/alveesarker/",
+      github: "https://github.com/alveesarker",
+    },]
+  
   return (
     <main>
       <GridBackgroundDemo head={head} />
@@ -185,8 +198,9 @@ const page = () => {
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
-      <WobbleCardDemo />
       <ClientReview />
+      <LeadingGroup cards = {cards}/>
+      <WobbleCardDemo />
     </main>
   );
 };

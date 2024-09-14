@@ -11,6 +11,7 @@ import { CiMoneyCheck1 } from "react-icons/ci";
 import Image from "next/image";
 import React from "react";
 import { IoEyeOutline } from "react-icons/io5";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 const page = () => {
@@ -144,7 +145,39 @@ const page = () => {
 
   ]
 
-
+  const cards = [
+    {
+      description: "Ahmed Ullah Musa",
+      title: "Ahmed Ullah Musa",
+      des: "Chief Marketing Officer",
+      src: "/images/musa.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/ahmad.musa.3154284?mibextid=ZbWKwL",
+      linkedin: "https://www.linkedin.com/in/ahmed-ullah-musa/",
+      instagram: "https://www.instagram.com/dmmusa98/",
+    },
+    {
+      description: "Raj Habib",
+      title: "Raj Habib",
+      des: "Digital Marketer",
+      src: "/images/habib.png",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/RajHabib789",
+      linkedin: "https://www.linkedin.com/in/raj-habib/",
+      instagram: "https://www.instagram.com/ahsanhabib_raaz",
+    },
+    {
+      description: "Saber Hossain Shihab",
+      title: "Saber Hossain Shihab",
+      des: "Digital Marketer",
+      src: "/images/shihab.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/saberal.mahmud.5?mibextid=ZbWKwL",
+      linkedin:
+        "https://www.linkedin.com/in/md-saber-hossain-shihab-22527b2a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/saberseovid?igsh=anAzcXJ1aDNid21l",
+    },
+  ]
 
   return (
     <main>
@@ -158,6 +191,7 @@ const page = () => {
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <ClientReview />
+      <LeadingGroup cards = {cards}/>
       <WobbleCardDemo />
     </main>
   );
