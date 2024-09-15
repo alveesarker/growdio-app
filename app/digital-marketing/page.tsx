@@ -190,6 +190,7 @@ const page = () => {
       />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
+      {/* <WobbleCardDemo /> */}
       <FloatingDockDemo links={links} />
       <ClientReview />
       <LeadingGroup cards = {cards}/>

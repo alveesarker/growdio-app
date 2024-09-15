@@ -166,6 +166,7 @@ const page = () => {
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
       <MacbookScrollDemo />
       <ComprehensiveService comprehensive={Comprehensive} />
+      {/* <WobbleCardDemo /> */}
       <FloatingDockDemo links={links} />
       <ClientReview />
       <LeadingGroup cards = {cards}/>
