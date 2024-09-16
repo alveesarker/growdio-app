@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import FadeInSection from "./FadeInSection";
+import FadeInSection1 from "./FadeInSection1";
 
 const HowHelp = () => {
     return (
@@ -41,13 +42,13 @@ const HowHelp = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-start justify-start w-full md:gap-60 gap-8 pl-10 md:h-80 h-[39rem]">
-                    <FadeInSection className="md:w-1/2 w-full" delay={0.5}>
+                    <FadeInSection1 className="md:w-1/2 w-full" delay={0.5}>
                         <img
                             src="/images/discover.png"
                             className="w-80 rounded-xl "
                             alt=""
                         />
-                    </FadeInSection>
+                    </FadeInSection1>
                     <FadeInSection className=" md:w-1/2 w-full" delay={0.5}>
                         <h1 className="text-2xl font-bold text-slate-100">
                             Discovery & Strategy
@@ -71,18 +72,18 @@ const HowHelp = () => {
                             focus on creating experiences that resonate with your audience.
                         </p>
                     </FadeInSection>
-                    <FadeInSection className="md:w-1/2 w-full" delay={0.5}>
+                    <FadeInSection1 className="md:w-1/2 w-full" delay={0.5}>
                         <img
                             src="/images/creative__.png"
                             className="w-80 rounded-xl"
                             alt=""
                         />
-                    </FadeInSection>
+                    </FadeInSection1>
                 </div>
                 <div className="flex flex-col md:flex-row items-start justify-start w-full md:gap-60 gap-8 pl-10 md:h-80 h-[39rem]">
-                    <FadeInSection className="md:w-1/2 w-full" delay={0.5}>
+                    <FadeInSection1 className="md:w-1/2 w-full" delay={0.5}>
                         <img src="/images/setup.png" className="w-80 rounded-xl" alt="" />
-                    </FadeInSection>
+                    </FadeInSection1>
                     <FadeInSection className=" md:w-1/2 w-full" delay={0.5}>
                         <h1 className="text-2xl font-bold text-slate-100">
                             Execution & Campaign Setup
@@ -110,13 +111,13 @@ const HowHelp = () => {
                             competitive market.
                         </p>
                     </FadeInSection>
-                    <FadeInSection className="md:w-1/2 w-full" delay={0.5}>
+                    <FadeInSection1 className="md:w-1/2 w-full" delay={0.5}>
                         <img
                             src="/images/growth__.png"
                             className="w-80 rounded-xl"
                             alt=""
                         />
-                    </FadeInSection>
+                    </FadeInSection1>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 
 //@ts-ignore
-const FadeInSection = ({ children, className, delay = 0 }) => {
+const FadeInSection1 = ({ children, className, delay = 0 }) => {
     const controls = useAnimation();
     const { ref, inView } = useInView({
         threshold: 0.1, // Trigger when 10% of the element is visible
@@ -24,8 +24,8 @@ const FadeInSection = ({ children, className, delay = 0 }) => {
             animate={controls}
             className={className} // Pass the className to ensure styles are applied correctly
             variants={{
-                hidden: { opacity: 0, y: 40 },
-                visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay } }, // Added delay here
+                hidden: { opacity: 0, x: -40 },
+                visible: { opacity: 1, x: 0, transition: { duration: 0.8, delay } }, // Added delay here
             }}
             style={{ overflow: "hidden" }} // Prevent layout issues
         >
@@ -34,4 +34,4 @@ const FadeInSection = ({ children, className, delay = 0 }) => {
     );
 };
 
-export default FadeInSection;
+export default FadeInSection1;
