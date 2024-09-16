@@ -109,7 +109,7 @@ const page = () => {
 
   const links = [
     {
-      title: "GitHub",
+      title: "/images/technologydev.png",
       icon: (
         <Image
           src="/images/github-logo.png"

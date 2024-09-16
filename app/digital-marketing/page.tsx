@@ -68,7 +68,7 @@ const page = () => {
 
   const links = [
     {
-      title: "Facebook",
+      title: "/images/technologydig.png",
       icon: (
         <Image
           src="/images/facebooklogo.png"

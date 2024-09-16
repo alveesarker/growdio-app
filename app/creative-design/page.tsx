@@ -89,7 +89,7 @@ const page = () => {
 
   const links = [
     {
-      title: "Adobe PS",
+      title: "/images/technologydes.png",
       icon: (
         <Image
           src="/images/aps.png"

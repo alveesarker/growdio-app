@@ -19,7 +19,7 @@ export function PlaceholdersAndVanishInputDemo() {
     console.log("submitted");
   };
   return (
-    <div className="h-[30rem] flex flex-col justify-center items-center px-4 mt-32">
+    <div className="h-[30rem] flex max-w-[80rem] w-[80%] left-[50%] translate-x-[-50%] relative flex-col justify-center items-center px-4 mt-24">
       <h2 className="sm:text-5xl max-sm:text-4xl geomatrixBold text-center dark:text-white text-white">
         Feel free to ask Growdio anything
       </h2>
