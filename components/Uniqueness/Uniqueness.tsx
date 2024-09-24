@@ -1,7 +1,10 @@
+"use client"
 import React from 'react';
 import { IoBarChartOutline, IoTrophyOutline } from "react-icons/io5";
 import { PiUsersFourThin, PiHandshakeLight, PiStrategyLight } from "react-icons/pi";
 import { LuFocus } from "react-icons/lu";
+import FadeInSection from '../HowHelp/FadeInSection';
+import FadeInSection1 from '../HowHelp/FadeInSection1';
 
 const Uniqueness = () => {
 
@@ -41,17 +44,17 @@ const Uniqueness = () => {
 
     return (
         <div className='max-w-[80rem] my-40 w-[80%] relative left-[50%] translate-x-[-50%]'>
-            <h1 className="text-left geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white mb-28">What <span className='text-[#01c056] calvino'>Makes Us <br /> Differen</span> from Others</h1>
+            <FadeInSection1 className="text-left geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white mb-28">What <span className='text-[#01c056] calvino'>Makes Us <br /> Differen</span> from Others</FadeInSection1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-16'>
                 {growdioUniquePoints.map((item, idx) => (
-                    <div className='flex flex-col md:items-center items-start justify-center gap-5' key={idx}>
+                    <FadeInSection className='flex flex-col md:items-center items-start justify-center gap-5' key={idx}>
                         <div className=' text-[55px] font-thin text-[#01c056]'>{item.icon}</div>
                         <h2 className='md:text-center text-2xl geomatrixBold text-slate-100'>{item.title}</h2>
                         <p className='md:text-center text-kg text-slate-300'>{item.description}</p>
-                    </div>
+                    </FadeInSection>
                 ))}
             </div>
-
+<></>
         </div>
     )
 }
