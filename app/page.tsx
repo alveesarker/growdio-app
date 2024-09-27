@@ -19,11 +19,11 @@ const HomePage = () => {
       {/* <DirectionAwareHoverDemo/> */}
       <Counting />
       <HowHelp />
-      <PlaceholdersAndVanishInputDemo />
       <ProductDemo />
       <Compare />
       <ClientReview />
       <HeroParallaxDemo />
+      {/* <PlaceholdersAndVanishInputDemo /> */}
       <WobbleCardDemo />
     </div>
   )

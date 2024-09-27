@@ -2,20 +2,22 @@ import { CardSpotlight } from "@/components/ui/card-spotlight2";
 
 export function CardSpotlightDemo2() {
   return (
-    <CardSpotlight className="h-96 w-12/12 sm:w-96">
-      <p className="text-xl font-bold relative z-20 mt-2 text-neutral-500">
-        OTHER AGENCIES
+    <div className="flex flex-col items-center justify-center">
+      <p className="text-xl font-bold relative bottom-10 z-20 mt-2 text-white">
+        Other Agencies
       </p>
-      <div className="text-neutral-500 mt-16 relative z-20">
-        Their steps
-        <ul className="list-none mt-2">
-          <Step title="Use generic templates" />
-          <Step title="Stick to safe trends" />
-          <Step title="Offer limited services" />
-          <Step title="Rush projects" />
-        </ul>
-      </div>
-    </CardSpotlight>
+      <CardSpotlight className="h-72 w-12/12 sm:w-96">
+        <div className="text-neutral-500 mt-6 relative z-20">
+          Their steps
+          <ul className="list-none mt-2">
+            <Step title="Use generic templates" />
+            <Step title="Stick to safe trends" />
+            <Step title="Offer limited services" />
+            <Step title="Rush projects" />
+          </ul>
+        </div>
+      </CardSpotlight>
+    </div>
   );
 }
 

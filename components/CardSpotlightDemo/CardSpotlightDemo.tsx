@@ -2,20 +2,22 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 export function CardSpotlightDemo() {
   return (
-    <CardSpotlight className="h-96 w-12/12 sm:w-96">
-      <p className="text-xl font-bold relative z-20 mt-2 text-white">
-        GROWDIO
+    <div className="flex flex-col items-center justify-center">
+      <p className="text-xl font-bold relative bottom-10 z-20 mt-2 text-white">
+        Growdio
       </p>
-      <div className="text-neutral-200 mt-16 relative z-20">
-        Our maintaining steps
-        <ul className="list-none  mt-2">
-          <Step title="Delivers tailored designs" />
-          <Step title="Embraces cutting-edge techniques" />
-          <Step title="Provides end-to-end solutions" />
-          <Step title="Values collaboration and quality" />
-        </ul>
-      </div>
-    </CardSpotlight>
+      <CardSpotlight className="h-72 w-12/12 sm:w-96">
+        <div className="text-neutral-200 mt-6 relative z-20">
+          Our maintaining steps
+          <ul className="list-none  mt-2">
+            <Step title="Delivers tailored designs" />
+            <Step title="Embraces cutting-edge techniques" />
+            <Step title="Provides end-to-end solutions" />
+            <Step title="Values collaboration and quality" />
+          </ul>
+        </div>
+      </CardSpotlight>
+    </div>
   );
 }
 

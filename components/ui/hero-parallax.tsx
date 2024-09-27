@@ -99,7 +99,7 @@ export const Header = () => {
       <h1 className="text-4xl geomatrixBold md:text-7xl font-bold text-white">
         Explore Our
         <br />
-        Latest Posts Here
+        <span className="calvino">Latest</span> Posts Here
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
         We build beautiful products with the latest technologies. We are a team

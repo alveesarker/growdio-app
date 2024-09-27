@@ -6,7 +6,7 @@ import Buttont from "../Button/Buttont";
 
 export function GridBackgroundDemo() {
   return (
-    <div className="h-[47rem] w-full bg-[images/HeroBg.jpg] relative flex items-center justify-center">
+    <div className="h-[47rem] w-full relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
       
       <div className="w-[80%]">

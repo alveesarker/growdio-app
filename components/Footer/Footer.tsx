@@ -1,8 +1,7 @@
-import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaBehance } from 'react-icons/fa';
-import Button from '../Button/Button'
 import Link from 'next/link';
-import { LinkPreview } from '../ui/link-preview';
+import { FaBehance, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaYoutube } from "react-icons/fa6";
+import Button from '../Button/Button';
 
 const Footer = () => {
     return (
@@ -27,6 +26,9 @@ const Footer = () => {
                                 <Link href=''>
                                     <FaBehance className='text-white h-6 hover:text-blue-600 transition-all w-6 cursor-pointer' />
                                 </Link>
+                                <Link href='https://www.youtube.com/@Growdio' target='_blank'>
+                                    <FaYoutube className='text-white h-6 hover:text-red-500 transition-all w-6 cursor-pointer' />
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -50,7 +52,7 @@ const Footer = () => {
                     <div className='md:w-[20%] w-full flex flex-col items-start gap-2'>
                         <h3 className='text-white mb-3 text-[20px] font-semibold'>Location</h3>
                         <p className='text-neutral-300 hover:text-white transition-all'>Bangladesh</p>
-                        <p className='text-neutral-300 hover:text-white transition-all'>USA</p>
+                        <p className='text-neutral-300 hover:text-white transition-all'>China</p>
                     </div>
                 </div>
             </div>

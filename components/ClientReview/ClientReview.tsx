@@ -1,21 +1,20 @@
-import React from 'react'
-import { InfiniteMovingCardsDemo2 } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo'
-import { InfiniteMovingCardsDemo3 } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo3'
-import { WobbleCardDemo } from '../WobbleCardDemo/WobbleCardDemo'
+import { InfiniteMovingCardsDemo3 } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo3';
+import { InfiniteMovingCardsDemo } from '../InfiniteMovingCardsDemo/InfiniteMovingCardsDemo';
 
 const ClientReview = () => {
     return (
         <div className='flex flex-col items-center justify-center mt-40 gap-20'>
             <div className='pl-4 pr-4'>
                 <h2 className=" text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
-                    Client Success Stories
+                    There's a reason clients <br /> enjoy <span className='calvino'>partnering</span> with us.
                 </h2>
-                <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                    See what our clients have to say about working with Growdio. Their feedback highlights the impact of our creative solutions and personalized service, showcasing how we turn vision into reality and drive success.
+                <p className="text-neutral-400 max-w-lg mx-auto my-2 text-base text-center relative z-10">
+                See what clients say about Growdio. Their feedback highlights our creative solutions and personalized service in driving success.
                 </p>
             </div>
-            <div className='relative w-full'>
+            <div className='relative w-full flex flex-col gap-8'>
                 <InfiniteMovingCardsDemo3 />
+                <InfiniteMovingCardsDemo/>
             </div>
         </div>
     )

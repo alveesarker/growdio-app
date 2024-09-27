@@ -18,7 +18,7 @@ interface ServiceSystemProps {
 
 const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem, usefulness = [] }) => {
     return (
-        <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between relative left-[50%] translate-x-[-50%] '>
+        <div className='max-w-[80rem] w-[80%] flex flex-col lg:flex-row items-start justify-between relative left-[50%] translate-x-[-50%]'>
             <div className='w-[100%] lg:w-[67%]'>
                 <div className='w-[100%]'>
                     <h2 className="text-left geomatrixBold sm:text-4xl max-sm:text-3xl dark:text-white text-white">
