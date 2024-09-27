@@ -1,14 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
+import { useState } from "react";
 import {
   HoveredLink,
   Menu,
   MenuItem,
-  ProductItem,
   NonDropdownItem,
+  ProductItem,
 } from "../ui/navbar-menu";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
 
 export function NavbarDemo() {
   return (
@@ -23,7 +23,7 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-[60]",
+        "fixed top-10 inset-x-0 max-w-[36rem] mx-auto z-[60]",
         className
       )}
     >
@@ -38,6 +38,9 @@ function Navbar({ className }: { className?: string }) {
           </Link>
         </div>
         <div className="flex gap-5 pt-[2px]">
+          <div className="sm:block hidden">
+            <NonDropdownItem href="/" label="Home" />
+          </div>
           <MenuItem setActive={setActive} active={active} item="Services">
             <div
               className="text-sm grid grid-cols-1 md:grid-cols-2 gap-10 p-4 relative
