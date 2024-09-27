@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'friendsbold';
-  src: url('/fonts/Friends-UltraBold.ttf') format('truetype');
+  src: url('/fonts/Friends-SemiBold.ttf') format('truetype');
   font-style: normal;
 }
 
@@ -33,19 +33,20 @@ body {
   font-family: 'GeomatrixLight', sans-serif;
 }
 
-.geomatrixBold{
+.geomatrixBold {
   font-family: 'GeomatrixBold', sans-serif;
 }
 
-.calvino{
+.calvino {
   font-family: 'Calvino', sans-serif;
   color: #21c25c;
 }
 
-.friendsbold{
+.friendsbold {
   font-family: 'friendsbold', sans-serif;
 }
-.lineh{
+
+.lineh {
   line-height: 65px;
   letter-spacing: 2px;
 }
@@ -86,8 +87,9 @@ body {
     flex-direction: column;
   }
 }
+
 @media (max-width:768px) {
-  .lineh{
+  .lineh {
     line-height: 40px;
   }
 }
