@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { InfiniteMovingCard3 } from "../ui/infinite-moving-card3";
 
 // Define the prop type

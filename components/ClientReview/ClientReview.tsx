@@ -9,12 +9,12 @@ const ClientReview = () => {
                     There's a reason clients <br /> enjoy <span className='calvino'>partnering</span> with us.
                 </h2>
                 <p className="text-neutral-400 max-w-lg mx-auto my-2 text-base text-center relative z-10">
-                See what clients say about Growdio. Their feedback highlights our creative solutions and personalized service in driving success.
+                    See what clients say about Growdio. Their feedback highlights our creative solutions and personalized service in driving success.
                 </p>
             </div>
-            <div className='relative w-full flex flex-col gap-8'>
+            <div className='relative w-full flex flex-col gap-5'>
                 <InfiniteMovingCardsDemo3 />
-                <InfiniteMovingCardsDemo/>
+                <InfiniteMovingCardsDemo />
             </div>
         </div>
     )

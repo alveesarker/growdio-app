@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { InfiniteMovingCard3 } from "../ui/infinite-moving-card3";
+import { InfiniteMovingCard2 } from "../ui/infinite-moving-card2";
 
 // Define the prop type
 // type InfiniteMovingCardsDemo2Props = {
@@ -9,7 +8,7 @@ import { InfiniteMovingCard3 } from "../ui/infinite-moving-card3";
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="h-[14rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCard3
+      <InfiniteMovingCard2
         items={testimonials}
         direction="left"
         speed="slow"
