@@ -100,7 +100,7 @@ const page = () => {
 
   const links = [
     {
-      title: "Adobe Pr",
+      title: "/images/technologyvid.png",
       icon: (
         <Image
           src="/images/apr.png"

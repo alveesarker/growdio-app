@@ -90,7 +90,8 @@ const page = () => {
 
   const links = [
     {
-      title: "Figma",
+      title: "/images/technologyfig.png",
+      name: 'figma',
       icon: (
         <Image
           src="/images/figma-logo.jpg"

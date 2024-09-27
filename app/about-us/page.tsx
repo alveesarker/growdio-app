@@ -19,7 +19,7 @@ const About = () => {
       <div>
         <GridBackgroundDemo />
         <Value />
-        <DiscoverWork />
+        {/* <DiscoverWork /> */}
         <Uniqueness />
         {/* <OurServices /> */}
         <SparklesPreview />
