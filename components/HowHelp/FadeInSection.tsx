@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 
 //@ts-ignore
-const FadeInSection = ({ children, className, delay = 0 }) => {
+const FadeInSection = ({ children, className, delay = 0.5 }) => {
     const controls = useAnimation();
     const { ref, inView } = useInView({
         threshold: 0.1, // Trigger when 10% of the element is visible

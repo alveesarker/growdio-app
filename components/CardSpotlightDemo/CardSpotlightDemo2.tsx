@@ -1,9 +1,10 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight2";
+import FadeInSection from "../HowHelp/FadeInSection";
 
 export function CardSpotlightDemo2() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <p className="text-xl font-bold relative bottom-10 z-20 mt-2 text-white">
+    <div className="flex flex-col gap-5">
+      <p className="text-xl text-center font-bold relative z-20 mt-2 text-neutral-500">
         Other Agencies
       </p>
       <CardSpotlight className="h-72 w-12/12 sm:w-96">

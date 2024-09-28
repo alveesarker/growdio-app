@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import FadeInSection from "../HowHelp/FadeInSection";
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -395,8 +396,8 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-0 sm:py-20 mt-0 sm:mt-24 h-screen md:h-auto dark:bg-black bg-black relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[20rem] md:h-[40rem] px-4">
+    <div className="flex flex-row items-center justify-center py-0 sm:py-20 mb-10 sm:mt-12 h-auto mt-32 md:h-auto dark:bg-black bg-black relative w-full">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[20rem] md:h-[38rem]">
         <motion.div
           initial={{
             opacity: 0,
@@ -411,12 +412,12 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className=" text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
+          <FadeInSection className=" text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
             We sell services worldwide
-          </h2>
-          <p className="text-center text-base md:text-sm font-normal text-neutral-400 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+          </FadeInSection>
+          <FadeInSection className="text-center text-base md:text-sm font-normal text-neutral-400 dark:text-neutral-200 max-w-md mt-2 mx-auto">
             This globe is interactive and customizable. Have fun with it. :)
-          </p>
+          </FadeInSection>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-black z-40" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">

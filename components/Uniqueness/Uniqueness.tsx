@@ -43,7 +43,7 @@ const Uniqueness = () => {
 
 
     return (
-        <div className='max-w-[80rem] my-40 w-[80%] relative left-[50%] translate-x-[-50%]'>
+        <div className='max-w-[80rem] mt-32 w-[80%] relative left-[50%] translate-x-[-50%]'>
             <FadeInSection1 className="text-left geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white mb-28">What <span className='text-[#01c056] calvino'>Makes Us <br /> Differen</span> from Others</FadeInSection1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-16'>
                 {growdioUniquePoints.map((item, idx) => (

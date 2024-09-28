@@ -1,10 +1,12 @@
+"use client"
 import React from 'react'
 import { LayoutGridDemo } from '../LayoutGridDemo/LayoutGridDemo'
+import FadeInSection from '../HowHelp/FadeInSection'
 
 const FullLayout = () => {
     return (
         <div className=' flex flex-col items-center gap-10 max-w-[80rem] w-[80%] relative left-[50%] translate-x-[-50%] justify-center mt-20'>
-            <div className='pl-4 pr-4'>
+            <FadeInSection className='pl-4 pr-4'>
                 <h2 className="text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                 Expert Tips and Best Practices
                 </h2>
@@ -13,7 +15,7 @@ const FullLayout = () => {
                     We provide reliable, scalable, and customizable email solutions for
                     your business.
                 </p>
-            </div>
+            </FadeInSection>
             <LayoutGridDemo />
         </div>
     )

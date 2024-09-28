@@ -1,5 +1,6 @@
 import React from 'react'
 import { ExpandableCardDemo } from '../ExpandableCardDemo/ExpandableCardDemo'
+import FadeInSection from '../HowHelp/FadeInSection'
 
 const Team = () => {
 
@@ -88,7 +89,7 @@ const Team = () => {
 
     return (
         <div className='w-full flex flex-col justify-center gap-16 items-center py-16'>
-            <div className='pl-4 pr-4'>
+            <FadeInSection className='pl-4 pr-4'>
                 <h2 className=" text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     Our Tireless Team
                 </h2>
@@ -96,7 +97,7 @@ const Team = () => {
                     These are the people working behind the computer screen,
                     dedicated to ensuring that your brand receives the recognition it deserves.
                 </p>
-            </div>
+            </FadeInSection>
             {/* <div className='flex items-center justify-center gap-10 w-[80%] flex-wrap '>
                 {team.map((item, inx) => (
                     <ThreeDCardDemo team={item} key={inx} />

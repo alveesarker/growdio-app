@@ -27,7 +27,7 @@ const Counting = () => {
   ];
 
   return (
-    <div className="my-20  max-w-[80rem] w-[80%] flex items-center justify-between relative left-[50%] translate-x-[-50%] flex-wrap gap-5">
+    <div className="my-10  max-w-[80rem] w-[80%] flex items-center justify-between relative left-[50%] translate-x-[-50%] flex-wrap gap-5">
       {items.map((item, idx) => (
         <CardDemo item={item} key={idx} />
       ))}

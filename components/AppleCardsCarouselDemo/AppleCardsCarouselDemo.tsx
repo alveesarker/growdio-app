@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import { Highlight } from "../ui/hero-highlight";
+import FadeInSection1 from "../HowHelp/FadeInSection1";
 
 export function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (
@@ -11,9 +12,9 @@ export function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20 mt-32">
-      <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl font-bold text-neutral-100 dark:text-neutral-200 font-sans">
+      <FadeInSection1 delay={0.5} className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl font-bold text-neutral-100 dark:text-neutral-200 font-sans">
       Meet Our Experts
-      </h2>
+      </FadeInSection1>
       <Carousel items={cards} />
     </div>
   );
