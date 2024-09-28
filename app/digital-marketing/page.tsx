@@ -2,16 +2,15 @@ import { GridBackgroundDemo } from "@/components/BackgroundServices/BackgroundSe
 import ClientReview from "@/components/ClientReview/ClientReview";
 import ComprehensiveService from "@/components/ComprehensiveService/ComprehensiveService";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo/FloatingDockDemo";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup';
 import { MacbookScrollDemo } from "@/components/MacbookScrollDemo/MacbookScrollDemo";
 import ServiceSystem from "@/components/ServiceSystem/ServiceSystem";
 import { WobbleCardDemo } from "@/components/WobbleCardDemo/WobbleCardDemo";
-import { RxSpeakerQuiet } from "react-icons/rx";
-import { GiConversation } from "react-icons/gi";
-import { CiMoneyCheck1 } from "react-icons/ci";
 import Image from "next/image";
-import React from "react";
+import { CiMoneyCheck1 } from "react-icons/ci";
+import { GiConversation } from "react-icons/gi";
 import { IoEyeOutline } from "react-icons/io5";
-import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
+import { RxSpeakerQuiet } from "react-icons/rx";
 
 
 const page = () => {
@@ -28,7 +27,7 @@ const page = () => {
     imageTwo: "/images/digitalm_2.jpeg"
   }
 
-  const listItemForService = ["Experienced Marketing Team", "5+ Years of Experience", "60+ Satisfied Clients", "Data-Driven Strategies", "SEO & SEM Expertise", "Social Media Marketing", "Email Campaigns & Automation", "Content Marketing", "Analytics & Reporting", "15/7 Dedicated Support"]
+  const listItemForService = ["Experienced Marketing Team", "3+ Years of Experience", "40+ Satisfied Clients", "Data-Driven Strategies", "SEO & SEM Expertise", "Social Media Marketing", "Email Campaigns & Automation", "Content Marketing", "Analytics & Reporting", "15/7 Dedicated Support"]
 
   const Comprehensive = {
     namee: "Digital Marketing",
@@ -160,7 +159,7 @@ const page = () => {
     {
       description: "Raj Habib",
       title: "Raj Habib",
-      des: "Digital Marketer",
+      des: "Sr. Digital Marketer",
       src: "/images/habib.png",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/RajHabib789",
@@ -170,7 +169,7 @@ const page = () => {
     {
       description: "Saber Hossain Shihab",
       title: "Saber Hossain Shihab",
-      des: "Digital Marketer",
+      des: "Jr. Digital Marketer",
       src: "/images/shihab.jpg",
       ctaText: "Facebook",
       facebook: "https://www.facebook.com/saberal.mahmud.5?mibextid=ZbWKwL",
@@ -179,6 +178,9 @@ const page = () => {
       instagram: "https://www.instagram.com/saberseovid?igsh=anAzcXJ1aDNid21l",
     },
   ]
+  const macTitle1 = "Turning Ideas into";
+  const italic = 'Impactful';
+  const macTitle2 = "Marketing Masterpieces";
 
   return (
     <main>
@@ -188,12 +190,12 @@ const page = () => {
         listItem={listItemForService}
         usefulness={usefulness}
       />
-      <MacbookScrollDemo />
+      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic ={italic} />
       <ComprehensiveService comprehensive={Comprehensive} />
       {/* <WobbleCardDemo /> */}
       <FloatingDockDemo links={links} />
       <ClientReview />
-      <LeadingGroup cards = {cards}/>
+      <LeadingGroup cards={cards} />
       <WobbleCardDemo />
     </main>
   );

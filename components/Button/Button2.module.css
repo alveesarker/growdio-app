@@ -1,0 +1,36 @@
+/* From Uiverse.io by Yaya12085 */
+.btnDonate {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #21c25c;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px -1px #21c25c13, 0 2px 4px -1px #21c25c33;
+    transition: all 0.6s ease;
+  }
+  
+  .btnDonate:hover {
+    box-shadow: 0 10px 15px -3px #23d06284, 0 4px 6px -2px #21c25c76;
+  }
+  
+  .btnDonate:focus,
+  .btnDonate:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+  
+  .btnDonate svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }

@@ -3,7 +3,7 @@ import { InfiniteMovingCardsDemo } from '../InfiniteMovingCardsDemo/InfiniteMovi
 
 const ClientReview = () => {
     return (
-        <div className='flex flex-col items-center justify-center mt-40 gap-20'>
+        <div className='flex flex-col items-center justify-center mt-32 gap-20'>
             <div className='pl-4 pr-4'>
                 <h2 className=" text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
                     There's a reason clients <br /> enjoy <span className='calvino'>partnering</span> with us.

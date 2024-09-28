@@ -3,17 +3,15 @@ import ClientReview from '@/components/ClientReview/ClientReview'
 import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService'
 import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo'
 import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
-import OurServices from '@/components/OurServices/OurServices'
 import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import Image from 'next/image'
-import React from 'react'
 
-import { IoBulbOutline } from "react-icons/io5";
-import { BsGraphUpArrow } from "react-icons/bs";
-import { LiaHandshake } from "react-icons/lia";
-import { GiPuzzle } from "react-icons/gi";
 import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
+import { BsGraphUpArrow } from "react-icons/bs"
+import { GiPuzzle } from "react-icons/gi"
+import { IoBulbOutline } from "react-icons/io5"
+import { LiaHandshake } from "react-icons/lia"
 
 
 const page = () => {
@@ -145,54 +143,58 @@ const page = () => {
 
   const cards = [
     {
-        description: "Anik Sadik Santo",
-        title: "Anik Sadik Santo",
-        des: "Founder",
-        src: "/images/sadik.jpg",
-        service: "Creative Design",
-        ctaText: "Facebook",
-        facebook: "https://www.facebook.com/profile.php?id=100029429422473",
-        linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
-        behance: "https://www.behance.net/shadikshanto",
+      description: "Anik Sadik Santo",
+      title: "Anik Sadik Santo",
+      des: "Founder",
+      src: "/images/sadik.jpg",
+      service: "Creative Design",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100029429422473",
+      linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
+      behance: "https://www.behance.net/shadikshanto",
     },
     {
-        description: "Sabbir Ahmed",
-        title: "Sabbir Ahmed",
-        des: "Co-Founde",
-        src: "/images/sabbir.jpg",
-        ctaText: "Facebook",
-        facebook: "https://www.facebook.com/profile.php?id=100004706238103",
-        linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
-        behance: "https://www.behance.net/sabbir69",
+      description: "Sabbir Ahmed",
+      title: "Sabbir Ahmed",
+      des: "Co-Founde",
+      src: "/images/sabbir.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/profile.php?id=100004706238103",
+      linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
+      behance: "https://www.behance.net/sabbir69",
     },
     {
-        description: "Yesin Arafat",
-        title: "Yesin Arafat",
-        des: "Co-Founder",
-        src: "/images/yeasin.jpg",
-        ctaText: "Facebook",
-        facebook: "https://www.facebook.com/designeryeasinarafat0",
-        linkedin: "https://www.linkedin.com/in/yeasin-arafat-designer/",
-        behance: "https://www.behance.net/designeryeasinar",
+      description: "Yesin Arafat",
+      title: "Yesin Arafat",
+      des: "Co-Founder",
+      src: "/images/yeasin.jpg",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/designeryeasinarafat0",
+      linkedin: "https://www.linkedin.com/in/yeasin-arafat-designer/",
+      behance: "https://www.behance.net/designeryeasinar",
     },
     {
-        description: "Mohammad Mahfuzul Haque",
-        title: "Mohammad Mahfuzul Haque",
-        des: "Graphic Designer",
-        src: "/images/mahfuz.png",
-        ctaText: "Facebook",
-        facebook: "https://www.facebook.com/mahfuzulhaqu703/",
-        linkedin: "https://www.linkedin.com/in/mahfuzulhaqu703/",
-        behance: "https://www.behance.net/mahfuzfarabi",
+      description: "Mohammad Mahfuzul Haque",
+      title: "Mohammad Mahfuzul Haque",
+      des: "Graphic Designer",
+      src: "/images/mahfuz.png",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/mahfuzulhaqu703/",
+      linkedin: "https://www.linkedin.com/in/mahfuzulhaqu703/",
+      behance: "https://www.behance.net/mahfuzfarabi",
     },
-];
+  ];
+
+  const macTitle1 = "Turning Ideas into";
+  const italic = 'Creative';
+  const macTitle2 = "Visual Masterpieces";
 
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
-      <MacbookScrollDemo />
+      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic ={italic}/>
       <ComprehensiveService comprehensive={Comprehensive} />
       {/* <OurServices /> */}
       {/* <WobbleCardDemo /> */}
@@ -200,7 +202,7 @@ const page = () => {
         <FloatingDockDemo links={links} />
       </div>
       <ClientReview />
-      <LeadingGroup cards = {cards}/>
+      <LeadingGroup cards={cards} />
       <WobbleCardDemo />
     </main>
   )

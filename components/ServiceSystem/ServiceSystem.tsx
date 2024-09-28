@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button/Button';
+import Button2 from '../Button/Button2';
 
 interface ServiceSystemProps {
     serviceSystem: {
@@ -29,7 +30,7 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem, 
                 <img className="w-full h-auto md:h-[350px] lg:h-[500px] rounded-3xl object-cover" src={serviceSystem.imageOne} alt="" />
 
                 <div className='mt-8'>
-                    <p className="text-neutral-400 mb-5 text-sm text-left relative z-10">
+                    <p className="text-neutral-400 mb-5 text-[1.2rem] text-left relative z-10">
                         {serviceSystem.paragraphTwo}
                     </p>
 
@@ -42,7 +43,7 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem, 
 
                                         {item.icon}
                                     </div>
-                                    <p className='text-neutral-400 text-sm text-left relative z-10'>{item.text}</p>
+                                    <p className='text-neutral-400 text-base text-left relative z-10'>{item.text}</p>
                                 </div>
                             ))
                         ) : (
@@ -65,8 +66,8 @@ const ServiceSystem: React.FC<ServiceSystemProps> = ({ serviceSystem, listItem, 
                             <li className='mb-3 text-neutral-400 text-lg font-normal list-disc ml-4' key={idx}>{item}</li>
                         ))}
                     </ul>
-                    <div className='mt-4'>
-                        <Button />
+                    <div className='mt-2 mb-2 ml-1'>
+                        <Button2 />
                     </div>
                 </div>
             </div>

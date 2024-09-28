@@ -2,13 +2,14 @@ import React from "react";
 import { MacbookScroll } from "../ui/macbook-scroll";
 import Link from "next/link";
 
-export function MacbookScrollDemo() {
+//@ts-ignore
+export function MacbookScrollDemo({title1, title2, italic}) {
   return (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-black w-full">
       <MacbookScroll
         title={
-          <span className="text-neutral-200">
-            Transforming Ideas into Visual Masterpieces <br /> with Creativity
+          <span className="text-center geomatrixBold sm:text-5xl max-sm:text-4xl dark:text-white text-white">
+            {title1} {" "} <span className="calvino">{italic}</span> <br /> {title2}
           </span>
         }
         badge={
