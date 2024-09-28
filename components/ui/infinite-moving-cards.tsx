@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -104,19 +105,20 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className="md:w-[120px] w-[80px] h-[100px] relative flex-shrink-0"
-            style={{
-              background: "",
-            }}
+
             key={idx}
           >
-            <img
+            <Image
               src={item.image}
               alt={''}
-              className="w-full object-cover"
+
+              width={80}
+              height={80}
               style={{
                 width: '80px',
                 opacity: "0.7",
                 borderRadius: "50%",
+                objectPosition: "cover"
               }}
             />
           </li>

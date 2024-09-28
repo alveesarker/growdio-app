@@ -1,8 +1,8 @@
-"use client";
+// "use client";
 
-import { useState } from "react";
-import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 type Tab = {
   title: string;
@@ -25,6 +25,7 @@ export const Tabs = ({
 }) => {
   const [active, setActive] = useState<Tab>(propTabs[0]);
   const [tabs, setTabs] = useState<Tab[]>(propTabs);
+  const [hovering, setHovering] = useState(false);
 
   const moveSelectedTabToTop = (idx: number) => {
     const newTabs = [...propTabs];
@@ -33,8 +34,6 @@ export const Tabs = ({
     setTabs(newTabs);
     setActive(newTabs[0]);
   };
-
-  const [hovering, setHovering] = useState(false);
 
   return (
     <>
@@ -62,12 +61,11 @@ export const Tabs = ({
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className={cn(
-                  "absolute inset-0 bg-neutral-700 dark:bg-zinc-800 rounded-full ",
+                  "absolute inset-0 bg-neutral-700 dark:bg-zinc-800 rounded-full",
                   activeTabClassName
                 )}
               />
             )}
-
             <span className="relative block text-white dark:text-white">
               {tab.title}
             </span>
@@ -88,6 +86,7 @@ export const Tabs = ({
 export const FadeInDiv = ({
   className,
   tabs,
+  active,
   hovering,
 }: {
   className?: string;
@@ -96,9 +95,29 @@ export const FadeInDiv = ({
   active: Tab;
   hovering?: boolean;
 }) => {
+  const [clientStyles, setClientStyles] = useState(
+    tabs.map(() => ({
+      scale: 1,
+      top: 0,
+      zIndex: 0,
+      opacity: 1,
+    }))
+  );
+
+  useEffect(() => {
+    const newStyles = tabs.map((tab, idx) => ({
+      scale: 1 - idx * 0.1,
+      top: hovering ? idx * -50 : 0,
+      zIndex: -idx,
+      opacity: idx < 3 ? 1 - idx * 0.1 : 0,
+    }));
+    setClientStyles(newStyles);
+  }, [hovering, tabs]);
+
   const isActive = (tab: Tab) => {
-    return tab.value === tabs[0].value;
+    return tab.value === active.value;
   };
+
   return (
     <div className="relative w-full h-full">
       {tabs.map((tab, idx) => (
@@ -106,10 +125,7 @@ export const FadeInDiv = ({
           key={tab.value}
           layoutId={tab.value}
           style={{
-            scale: 1 - idx * 0.1,
-            top: hovering ? idx * -50 : 0,
-            zIndex: -idx,
-            opacity: idx < 3 ? 1 - idx * 0.1 : 0,
+            ...clientStyles[idx], // Apply dynamic client-side styles
           }}
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,

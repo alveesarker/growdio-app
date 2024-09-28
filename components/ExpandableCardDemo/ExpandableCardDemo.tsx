@@ -282,7 +282,7 @@ const cards = [
     description: "Mehedi Hasan Emon",
     title: "Mehedi Hasan Emon",
     des: "Founder & CEO",
-    src: "",
+    src: "/images/sabbir.jpg",
     ctaText: "Facebook",
     facebook: "",
     linkedin: "",
