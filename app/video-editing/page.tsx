@@ -188,7 +188,9 @@ const page = () => {
       behance: "",
     },
   ]
-  
+  const macTitle1 = "Turning Ideas into";
+  const italic = 'Creative';
+  const macTitle2 = "Visual Masterpieces";
 
 
 
@@ -196,7 +198,7 @@ const page = () => {
     <main>
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
-      <MacbookScrollDemo />
+      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic ={italic}/>
       <ComprehensiveService comprehensive={Comprehensive} />
       {/* <WobbleCardDemo /> */}
       <FloatingDockDemo links={links} />

@@ -2,16 +2,15 @@ import { GridBackgroundDemo } from "@/components/BackgroundServices/BackgroundSe
 import ClientReview from "@/components/ClientReview/ClientReview";
 import ComprehensiveService from "@/components/ComprehensiveService/ComprehensiveService";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo/FloatingDockDemo";
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup';
 import { MacbookScrollDemo } from "@/components/MacbookScrollDemo/MacbookScrollDemo";
 import ServiceSystem from "@/components/ServiceSystem/ServiceSystem";
 import { WobbleCardDemo } from "@/components/WobbleCardDemo/WobbleCardDemo";
 import Image from "next/image";
-import React from "react";
+import { BsBuilding } from "react-icons/bs";
 import { LuScrollText } from "react-icons/lu";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { TbUxCircle } from "react-icons/tb";
-import { BsBuilding } from "react-icons/bs";
-import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 
 
 const page = () => {
@@ -187,7 +186,11 @@ const page = () => {
       linkedin: "https://www.linkedin.com/in/alveesarker/",
       github: "https://github.com/alveesarker",
     },]
-  
+
+
+  const macTitle1 = "Turning Ideas into";
+  const italic = 'Creative';
+  const macTitle2 = "Visual Masterpieces";
   return (
     <main>
       <GridBackgroundDemo head={head} />
@@ -196,11 +199,11 @@ const page = () => {
         listItem={listItemForService}
         usefulness={usefulness}
       />
-      <MacbookScrollDemo />
+      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic={italic} />
       <ComprehensiveService comprehensive={Comprehensive} />
       <FloatingDockDemo links={links} />
       <ClientReview />
-      <LeadingGroup cards = {cards}/>
+      <LeadingGroup cards={cards} />
       <WobbleCardDemo />
     </main>
   );
