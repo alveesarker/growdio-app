@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaBehance, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { FaYoutube } from "react-icons/fa6";
+import Image from 'next/image';
 import Button from '../Button/Button';
 
 const Footer = () => {
@@ -38,7 +39,6 @@ const Footer = () => {
                         <Link href='/about-us' className='text-neutral-300 hover:text-white transition-all'>About</Link>
                         <Link href='/contact-us' className='text-neutral-300 hover:text-white transition-all'>Contact</Link>
                         <Link href='/blog' className='text-neutral-300 hover:text-white transition-all'>Blog</Link>
-                        <Link href='/learn-more' className='text-neutral-300 hover:text-white transition-all'>Learn More</Link>
                     </div>
                     <div className='md:w-[20%] w-full flex flex-col items-start gap-2'>
                         <h3 className='text-white mb-3 text-[20px] font-semibold'>Resources</h3>
