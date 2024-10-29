@@ -39,7 +39,7 @@ const page = () => {
 
 
   const head = {
-    fstLine: 'Crafting Visual Masterpieces for',
+    fstLine: 'Capturing Visual Masterpieces for',
     sndLine: 'Your Brand'
   }
 
@@ -131,6 +131,12 @@ const page = () => {
     },
   ]
 
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
+
 
   const macTitle1 = "Turning Ideas into";
   const italic = 'Creative';
@@ -146,7 +152,7 @@ const page = () => {
       {/* <FloatingDockDemo links={links} /> */}
       <ClientReview />
       <LeadingGroup cards={cards} />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   )
 }

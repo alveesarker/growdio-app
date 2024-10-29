@@ -14,6 +14,13 @@ import WorkedWith from '@/components/WorkedWith/WorkedWith'
 import Uniqueness from '@/components/Uniqueness/Uniqueness'
 
 const About = () => {
+
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
+
   return (
     <main>
       <div>
@@ -28,7 +35,7 @@ const About = () => {
         <FindUs />
         {/* <WeAccept/> */}
         <GlobeDemo />
-        <WobbleCardDemo />
+        <WobbleCardDemo person={person}/>
       </div>
     </main>
   )

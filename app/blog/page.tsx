@@ -8,6 +8,13 @@ import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import React from 'react'
 
 const page = () => {
+
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
+
   return (
     <div>
       <HeroScrollDemo />
@@ -15,7 +22,7 @@ const page = () => {
       <AppleCardsCarouselDemo />
       <FullLayout />
       <TabsDemo />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </div>
   )
 }

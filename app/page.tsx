@@ -12,6 +12,13 @@ import React from 'react'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 
 const HomePage = () => {
+
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
+
   return (
     <div>
       <GridBackgroundDemo />
@@ -24,7 +31,7 @@ const HomePage = () => {
       <ClientReview />
       <HeroParallaxDemo />
       {/* <PlaceholdersAndVanishInputDemo /> */}
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </div>
   )
 }

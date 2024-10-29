@@ -7,6 +7,13 @@ import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import React from 'react'
 
 const page = () => {
+
+  const person = {
+    name: "Mehedi Hasan Emon",
+    title: "Hi! Mehedi Hasan Emon. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/mehedi_hasan.jpg"
+  }
+
   return (
     <main>
       <BackgroundContact />
@@ -14,7 +21,7 @@ const page = () => {
       <Collaborate/>
       <FindUs />
       <LinkPreviewDemo />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   )
 }

@@ -3,7 +3,9 @@ import Link from "next/link";
 import FadeInSection from "../HowHelp/FadeInSection";
 import { WobbleCard } from "../ui/wobble-card";
 
-export function WobbleCardDemo() {
+
+//@ts-ignore
+export function WobbleCardDemo({person}) {
   return (
     <FadeInSection className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-[80%] mt-32">
       
@@ -22,12 +24,12 @@ export function WobbleCardDemo() {
           </div>
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-black">
-          <img src="/images/sabbir.jpg" className="h-20 rounded-full mb-6" alt="" />
+          <img src={person.src} className="h-20 rounded-full mb-6" alt="" />
           <h2 className="max-w-80 text-left text-[26px] sm:text-[30px] text-base font-semibold tracking-[-0.015em] text-white">
-            Sabbir Ahmed Probal
+            {person.name}
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-sm/6 text-neutral-200">
-            Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!
+            {person.title}
           </p>
         </WobbleCard>
     </FadeInSection>

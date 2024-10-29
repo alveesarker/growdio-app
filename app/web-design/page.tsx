@@ -2,16 +2,15 @@ import { GridBackgroundDemo } from '@/components/BackgroundServices/BackgroundSe
 import ClientReview from '@/components/ClientReview/ClientReview'
 import ComprehensiveService from '@/components/ComprehensiveService/ComprehensiveService'
 import { FloatingDockDemo } from '@/components/FloatingDockDemo/FloatingDockDemo'
+import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
 import { MacbookScrollDemo } from '@/components/MacbookScrollDemo/MacbookScrollDemo'
 import ServiceSystem from '@/components/ServiceSystem/ServiceSystem'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo/WobbleCardDemo'
 import Image from 'next/image'
-import React from 'react'
-import { LuScrollText } from "react-icons/lu";
-import { MdAccessTimeFilled } from "react-icons/md";
-import { TbUxCircle } from "react-icons/tb";
-import { BsBuilding } from "react-icons/bs";
-import LeadingGroup from '@/components/LeadingGroup/LeadingGroup'
+import { BsBuilding } from "react-icons/bs"
+import { LuScrollText } from "react-icons/lu"
+import { MdAccessTimeFilled } from "react-icons/md"
+import { TbUxCircle } from "react-icons/tb"
 
 
 const page = () => {
@@ -106,56 +105,26 @@ const page = () => {
   ];
   const cards = [
     {
-      description: "Anik Sadik Santo",
-      title: "Anik Sadik Santo",
-      des: "Founder",
-      src: "/images/sadik.jpg",
-      service: "Web Design",
+      description: "Alvee Sarker",
+      title: "Alvee Sarker",
+      des: "Web Developer",
+      src: "/images/alveesarker.jpg",
+      service: "Web Development",
       ctaText: "Facebook",
-      facebook: "https://www.facebook.com/profile.php?id=100029429422473",
-      linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
-      behance: "https://www.behance.net/shadikshanto",
+      facebook: "https://www.facebook.com/Alveesarker01",
+      linkedin: "https://www.linkedin.com/in/alveesarker/",
+      github: "https://github.com/alveesarker",
     },
     {
-      description: "Sabbir Ahmed",
-      title: "Sabbir Ahmed",
-      des: "Co-Founde",
-      src: "/images/sabbir.jpg",
+      description: "SK Alif",
+      title: "SK Alif",
+      des: "Web Developer",
+      src: "/images/skalif.jpg",
+      service: "Web Development",
       ctaText: "Facebook",
-      facebook: "https://www.facebook.com/profile.php?id=100004706238103",
-      linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
-      behance: "https://www.behance.net/sabbir69",
-    },
-  
-    {
-      description: "Mehedi Hasan Emon",
-      title: "Mehedi Hasan Emon",
-      des: "Founder & CEO",
-      src: "",
-      ctaText: "Facebook",
-      facebook: "",
-      linkedin: "",
-      behance: "",
-    },
-    {
-      description: "Yesin Arafat",
-      title: "Yesin Arafat",
-      des: "Co-Founder",
-      src: "/images/yeasin.jpg",
-      ctaText: "Facebook",
-      facebook: "https://www.facebook.com/designeryeasinarafat0",
-      linkedin: "https://www.linkedin.com/in/yeasin-arafat-designer/",
-      behance: "https://www.behance.net/designeryeasinar",
-    },
-    {
-      description: "Mohammad Mahfuzul Haque",
-      title: "Mohammad Mahfuzul Haque",
-      des: "Graphic Designer",
-      src: "/images/mahfuz.png",
-      ctaText: "Facebook",
-      facebook: "https://www.facebook.com/mahfuzulhaqu703/",
-      linkedin: "https://www.linkedin.com/in/mahfuzulhaqu703/",
-      behance: "https://www.behance.net/mahfuzfarabi",
+      facebook: "https://www.facebook.com/sk.alif.90475",
+      linkedin: "https://www.linkedin.com/in/alveesarker/",
+      github: "https://github.com/alveesarker",
     },
   ]
 
@@ -163,18 +132,24 @@ const page = () => {
   const italic = 'Creative';
   const macTitle2 = "Visual Masterpieces";
 
+  const person = {
+    name: "SK Alif",
+    title: "Hi! I’m SK Alif. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/skalif.jpg"
+  }
+
 
   return (
     <main>
       <GridBackgroundDemo head={head} />
       <ServiceSystem serviceSystem={serviceSystem} listItem={listItemForService} usefulness={usefulness} />
-      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic ={italic}/>
+      <MacbookScrollDemo title1={macTitle1} title2={macTitle2} italic={italic} />
       <ComprehensiveService comprehensive={Comprehensive} />
       {/* <WobbleCardDemo /> */}
       <FloatingDockDemo links={links} />
       <ClientReview />
-      <LeadingGroup cards = {cards}/>
-      <WobbleCardDemo />
+      <LeadingGroup cards={cards} />
+      <WobbleCardDemo person={person} />
     </main>
   )
 }

@@ -185,7 +185,24 @@ const page = () => {
       facebook: "https://www.facebook.com/Alveesarker01",
       linkedin: "https://www.linkedin.com/in/alveesarker/",
       github: "https://github.com/alveesarker",
+    },
+    {
+      description: "SK Alif",
+      title: "SK Alif",
+      des: "Web Developer",
+      src: "/images/skalif.jpg",
+      service: "Web Development",
+      ctaText: "Facebook",
+      facebook: "https://www.facebook.com/sk.alif.90475",
+      linkedin: "https://www.linkedin.com/in/alveesarker/",
+      github: "https://github.com/alveesarker",
     },]
+
+    const person = {
+      name: "Sabbir Ahmed Probal",
+      title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+      src: "/images/sabbir.jpg"
+    }
 
 
   const macTitle1 = "Turning Ideas into";
@@ -204,7 +221,7 @@ const page = () => {
       <FloatingDockDemo links={links} />
       <ClientReview />
       <LeadingGroup cards={cards} />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   );
 };

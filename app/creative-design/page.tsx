@@ -16,6 +16,12 @@ import { LiaHandshake } from "react-icons/lia"
 
 const page = () => {
 
+  const person = {
+    name: "Mohammad Mahfuzul Haque",
+    title: "Hi! I’m Mohammad Mahfuzul Haque. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/mahfuz.png"
+  }
+
   const usefulness = [
     {
       icon: <IoBulbOutline />,
@@ -203,7 +209,7 @@ const page = () => {
       </div>
       <ClientReview />
       <LeadingGroup cards={cards} />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   )
 }

@@ -14,6 +14,13 @@ import { RxSpeakerQuiet } from "react-icons/rx";
 
 
 const page = () => {
+
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
+
   const head = {
     fstLine: 'Innovating Digital',
     sndLine: 'Marketing Strategies for Success'
@@ -196,7 +203,7 @@ const page = () => {
       <FloatingDockDemo links={links} />
       <ClientReview />
       <LeadingGroup cards={cards} />
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   );
 };

@@ -42,7 +42,7 @@ export function SignupFormDemo() {
                         rows={4}
                     />
                 </LabelInputContainer>
-                <Link href={"mailto:alveesarker196@gmail.com?subject=Hello&body=Write%20your%20message%20here"}>
+                <Link href={"mailto:info.growdio@gmail.com?subject=Hello&body=Write%20your%20message%20here"}>
                 <button
                     className="bg-gradient-to-br relative group/btn bg-green-500 mt-10 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
                     
@@ -51,12 +51,6 @@ export function SignupFormDemo() {
                     <BottomGradient />
                 </button>
                 </Link>
-                
-                
-                
-                
-
-
             </form>
         </div>
     );

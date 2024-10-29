@@ -156,32 +156,10 @@ const page = () => {
   ];
   const cards = [
     {
-      description: "Anik Sadik Santo",
-      title: "Anik Sadik Santo",
-      des: "Founder",
-      src: "/images/sadik.jpg",
-      service: "Video Editing",
-      ctaText: "Facebook",
-      facebook: "https://www.facebook.com/profile.php?id=100029429422473",
-      linkedin: "https://www.linkedin.com/in/anik-sadik-santo-22a063256/",
-      behance: "https://www.behance.net/shadikshanto",
-    },
-    {
-      description: "Sabbir Ahmed",
-      title: "Sabbir Ahmed",
-      des: "Co-Founde",
-      src: "/images/sabbir.jpg",
-      ctaText: "Facebook",
-      facebook: "https://www.facebook.com/profile.php?id=100004706238103",
-      linkedin: "https://www.linkedin.com/in/sabbir-ahmed-43403a1b2/",
-      behance: "https://www.behance.net/sabbir69",
-    },
-  
-    {
       description: "Mehedi Hasan Emon",
       title: "Mehedi Hasan Emon",
       des: "Founder & CEO",
-      src: "",
+      src: "/images/mehedi_hasan.jpg",
       ctaText: "Facebook",
       facebook: "",
       linkedin: "",
@@ -191,6 +169,12 @@ const page = () => {
   const macTitle1 = "Turning Ideas into";
   const italic = 'Creative';
   const macTitle2 = "Visual Masterpieces";
+
+  const person = {
+    name: "Sabbir Ahmed Probal",
+    title: "Hi! I’m Sabbir Ahmed Probal. I’m the COO at Growdio, and I’m here to answer any questions you might have!",
+    src: "/images/sabbir.jpg"
+  }
 
 
 
@@ -204,7 +188,7 @@ const page = () => {
       <FloatingDockDemo links={links} />
       <ClientReview />
       <LeadingGroup cards = {cards}/>
-      <WobbleCardDemo />
+      <WobbleCardDemo person={person}/>
     </main>
   )
 }
