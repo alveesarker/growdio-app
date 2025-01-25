@@ -29,19 +29,26 @@ const people = [
     image:
       '/images/sadman.jpg',
   },
-  {
-    id: 5,
-    name: "Alvee",
-    designation: "Developer",
-    image:
-      "/images/alveesarker.jpg",
-  },
+  // {
+  //   id: 5,
+  //   name: "Alvee",
+  //   designation: "Developer",
+  //   image:
+  //     "/images/alveesarker.jpg",
+  // },
   {
     id: 6,
     name: "Yeasin",
     designation: "Graphic Designer",
     image:
       "/images/yeasin.jpg",
+  },
+  {
+    id: 7,
+    name: "Alif",
+    designation: "Developer",
+    image:
+      "/images/skalif.jpg",
   },
 ];
 

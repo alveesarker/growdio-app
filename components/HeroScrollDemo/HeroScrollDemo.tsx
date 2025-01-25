@@ -2,7 +2,7 @@
 import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
 import Image from "next/image";
-import { Highlight } from "../ui/hero-highlight";
+// import { Highlight } from "../ui/hero-highlight";
 
 export function HeroScrollDemo() {
   return (
